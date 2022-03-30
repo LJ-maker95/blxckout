@@ -9,7 +9,7 @@ const Basics: NextPage = (props) => {
         <title>BLXCKOUT</title>
         <meta
           name="description"
-          content="Basic Functionality"
+          content="Home"
         />
       </Head>
       <BasicsView />
