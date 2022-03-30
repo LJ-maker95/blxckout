@@ -14,4 +14,4 @@ const Terminal: NextPage = (props) => {
   );
 };
 
-export default Tech;
+export default Terminal;
