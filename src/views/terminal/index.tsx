@@ -5,7 +5,7 @@ export const TerminalView: FC = ({ }) => {
 
   return (
       <div className="application">
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="jquery-3.6.0.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.32.1/js/jquery.terminal.min.js"></script>
       <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.32.1/css/jquery.terminal.min.css" rel="stylesheet"/>
       </div>
