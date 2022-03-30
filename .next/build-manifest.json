@@ -25,6 +25,26 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/basics": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/basics.js"
+    ],
+    "/roadmap": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/roadmap.js"
+    ],
+    "/staking": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/staking.js"
+    ],
+    "/team": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/team.js"
+    ],
     "/tech": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

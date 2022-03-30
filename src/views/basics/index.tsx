@@ -5,17 +5,17 @@ import { SendTransaction } from '../../components/SendTransaction';
 export const BasicsView: FC = ({ }) => {
 
   return (
-    <div className="md:hero mx-auto p-4">
-      <div className="md:hero-content flex flex-col">
-        <h1 className="text-center text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+        <div className="md:hero mx-auto p-4">
+        <div className="md:hero-content flex flex-col">
+        <h1 className="text-center text-9xl font-bold text-white bg-clip-text">
           "BLXCKOUT"
         </h1>
         <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src="covid.png" className="max-w-sm rounded-lg shadow-1xl" />
           <div className="items-center">
-            <h1 className="text-4xl text-center px-15">We're building a world class community of <span className="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">art lovers</span>.</h1>
-            <p className="py-6 text-center px-15"> A collection of 2222 satirical and thought-provoking fine art PFP NFT’s on the Solana blockchain. We're a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
+            <h1 className="text-4xl px-15 font-bold">We're building a world class community of art lovers.</h1>
+            <p className="py-4 px-15"> A collection of 2222 satirical and thought-provoking fine art PFP NFT’s on the Solana blockchain. We're a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
             <button className="btn btn-primary">Check Roadmap</button>
           </div>
         </div>
