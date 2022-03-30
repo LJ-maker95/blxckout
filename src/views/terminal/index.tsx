@@ -1,4 +1,5 @@
 import { FC } from "react";
+import $ from "jquery";
 
 export const TerminalView: FC = ({ }) => {
 
