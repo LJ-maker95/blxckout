@@ -16,7 +16,7 @@ export const TeamView: FC = ({ }) => {
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="blocksmith1.jpeg" alt className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="blocksmith1.jpeg" className="rounded-full object-cover h-full w-full shadow-md" />
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
@@ -46,7 +46,7 @@ export const TeamView: FC = ({ }) => {
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="blocksmith2.jpeg" alt className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="blocksmith2.jpeg" className="rounded-full object-cover h-full w-full shadow-md" />
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
@@ -76,7 +76,7 @@ export const TeamView: FC = ({ }) => {
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="blocksmith3.jpeg" alt className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="blocksmith3.jpeg" className="rounded-full object-cover h-full w-full shadow-md" />
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
