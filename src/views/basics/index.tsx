@@ -14,23 +14,23 @@ export const BasicsView: FC = ({ }) => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src="covid.png" className="max-w-sm rounded-lg shadow-2xl" />
           <div>
-            <h1 className="text-4xl">We're building a world class community of <span className="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">art lovers</span>.</h1>
-            <p className="py-6"> A collection of 2222 satirical and thought-provoking fine art PFP NFT’s on the Solana blockchain. We're a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
+            <h1 className="text-4xl  px-20">We're building a world class community of <span className="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">art lovers</span>.</h1>
+            <p className="py-6  px-20"> A collection of 2222 satirical and thought-provoking fine art PFP NFT’s on the Solana blockchain. We're a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
             <button className="btn btn-primary">Check BLXCKMXP</button>
           </div>
         </div>
         </div>
-        <div className="text-4xl py-5">
+        <div className="text-4xl py-5  px-20">
         <h1 className="font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
         </div>
-        <div className="flex-col">
+        <div className="flex-co  px-20">
         <p>BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
         <p className="py-5">The rest of this projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps and moving into DAO tooling in the long term future.</p>
         </div>
-        <div className="text-4xl py-5">
+        <div className="text-4xl py-5  px-20">
         <h1 className="font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">The Art</h1>
         </div>
-        <div className="flex-col">
+        <div className="flex-col  px-20">
         <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
         <section className="m-4 md:m-8 text-center">
