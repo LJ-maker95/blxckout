@@ -12,7 +12,7 @@ export const BasicsView: FC = ({ }) => {
         </h1>
         <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src="covid.png" className="max-w-sm rounded-lg shadow-2xl" />
+          <img src="covid.png" className="max-w-sm rounded-lg shadow-1xl" />
           <div className="items-center">
             <h1 className="text-4xl text-center px-15">We're building a world class community of <span className="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">art lovers</span>.</h1>
             <p className="py-6 text-center px-15"> A collection of 2222 satirical and thought-provoking fine art PFP NFT’s on the Solana blockchain. We're a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
@@ -20,10 +20,10 @@ export const BasicsView: FC = ({ }) => {
           </div>
         </div>
         </div>
-        <div className="text-4xl text-center py-5 px-15">
+        <div className="py-6 text-4xl text-center px-15">
         <h1 className="font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
         </div>
-        <div className="flex-co text-center px-20">
+        <div className="flex-co text-center px-15">
         <p>BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
         <p className="py-5">The rest of this projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps and moving into DAO tooling in the long term future.</p>
         </div>
