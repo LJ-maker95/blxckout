@@ -16,13 +16,13 @@ export const TeamView: FC = ({ }) => {
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="blocksmith1.jpeg" alt className="rounded-full object-cover h-full w-full shadow-md" />
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center">LJ</div>
                                     <p className="text-white text-sm text-center">Product Development & Utility</p>
-                                    <p className="text-center text-gray-600 text-base pt-3 font-normal">The CEO's role in.</p>
+                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">Technology strategy & cloud consultant for a FAANG equivalent, ex developer - worked with Fortune 500 companies to define IT strategies for last 5+ years including brands like Virgin Media & Accenture.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
                                             <div>
@@ -46,13 +46,13 @@ export const TeamView: FC = ({ }) => {
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="https://cdn.tuk.dev/assets/photo-1530577197743-7adf14294584.jfif" alt className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="blocksmith2.jpeg" alt className="rounded-full object-cover h-full w-full shadow-md" />
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center pb-1">Solbrood</div>
-                                    <p className="text-white text-sm text-center">Product Design Head</p>
-                                    <p className="text-center text-gray-600 text-base pt-3 font-normal">Blah blah blah.</p>
+                                    <p className="text-white text-sm text-center">Community & Creative</p>
+                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">Videographer and creative, previously worked with numerous global lifestyle brands including Timeout UK. He has directed, produced, filmed and edited both long and short form content for social media.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
                                             <div>
@@ -76,13 +76,13 @@ export const TeamView: FC = ({ }) => {
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif" alt className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="blocksmith3.jpeg" alt className="rounded-full object-cover h-full w-full shadow-md" />
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center pb-1">El Davo</div>
                                     <p className="text-white text-sm text-center">Artist</p>
-                                    <p className="text-center text-gray-800 text-base pt-3 font-normal">Our dope artist.</p>
+                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">El Davo is a UK based freelance illustrator, painter and mural artist who doesn’t want to be solely defined by these labels as he believes he can do anything.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
                                             <div>
