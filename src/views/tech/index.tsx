@@ -10,7 +10,6 @@ export const TechView: FC = ({ }) => {
       </div>
       </div>
       <h1 className="text-center text-5xl py-5 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">SOLANA 101</h1>
-
       <h1 className="text-center text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">NFT 101</h1>
       </div>
   );
