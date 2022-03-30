@@ -75,7 +75,7 @@ export const TeamView: FC = ({ }) => {
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center pb-1">Callum</div>
                                     <p className="text-white text-sm text-center">Economy & Tokenomics</p>
-                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">Callum is a PHD Economics student at UCL and is repsonsible for designing the economic model for our token. </p>
+                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">PHD Economics student at UCL and is repsonsible for designing the economic model for our token. </p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
                                             <div>

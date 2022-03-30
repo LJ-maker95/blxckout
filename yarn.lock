@@ -2740,6 +2740,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"get-options@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "get-options@npm:1.2.0"
+  checksum: 1f02137670a9dffeb919a3f2be2cbd0dad841502fc9c382962aacbc3a704d8582ed6a7c25d0401a01ca46843a82b252c64fad70a6cbe7ea22ef506fc20f08d47
+  languageName: node
+  linkType: hard
+
 "get-symbol-description@npm:^1.0.0":
   version: 1.0.0
   resolution: "get-symbol-description@npm:1.0.0"
@@ -2975,6 +2982,13 @@ __metadata:
   version: 9.0.12
   resolution: "immer@npm:9.0.12"
   checksum: bcbec6d76dac65e49068eb67ece4d407116e62b8cde3126aa89c801e408f5047763ba0aeb62f1938c1aa704bb6612f1d8302bb2a86fa1fc60fcc12d8b25dc895
+  languageName: node
+  linkType: hard
+
+"immutable@npm:^4.0.0-rc.12":
+  version: 4.0.0
+  resolution: "immutable@npm:4.0.0"
+  checksum: 4b5e9181e4d5fa06728a481835ec09c86367e5d03268666c95b522b7644ab891098022e4479a43c4c81a68f2ed82f10751ce5d33e208d7b873b6e7f9dfaf4d87
   languageName: node
   linkType: hard
 
@@ -3263,6 +3277,18 @@ __metadata:
   peerDependencies:
     ws: "*"
   checksum: d7190eadefdc28bdb93d67b5f0c603385aaf87724fa2974abb382ac1ec9756ed2cfb27065cbe76122879c2d452e2982bc4314317f3d6c737ddda6c047328771a
+  languageName: node
+  linkType: hard
+
+"javascript-terminal@npm:^1.0.3, javascript-terminal@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "javascript-terminal@npm:1.1.1"
+  dependencies:
+    get-options: ^1.2.0
+    immutable: ^4.0.0-rc.12
+    minimatch: ^3.0.4
+    minimatch-capture: ^1.1.0
+  checksum: e9573f767791f87ba248acaf4496119414be18c388e3545c2996252b164ce2a6e2c5e6300a6edbbb44baeb7a4733fd03e1b55cafcec28deed91dcf688964e657
   languageName: node
   linkType: hard
 
@@ -3623,6 +3649,15 @@ __metadata:
   version: 1.0.1
   resolution: "minimalistic-crypto-utils@npm:1.0.1"
   checksum: 6e8a0422b30039406efd4c440829ea8f988845db02a3299f372fceba56ffa94994a9c0f2fd70c17f9969eedfbd72f34b5070ead9656a34d3f71c0bd72583a0ed
+  languageName: node
+  linkType: hard
+
+"minimatch-capture@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "minimatch-capture@npm:1.1.0"
+  dependencies:
+    minimatch: ^3.0.4
+  checksum: e841262715766ea6c10a609f285875a03ee6c6a61006f9fd888654f0cc24bd9d7ae40f3fd06bcf35255ece9eb20d855cf3e9811dc4026ab2f00c9b409e1988f7
   languageName: node
   linkType: hard
 
@@ -4340,7 +4375,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -4422,6 +4457,20 @@ __metadata:
   version: 0.8.3
   resolution: "react-refresh@npm:0.8.3"
   checksum: 3cffe5a9cbac1c5d59bf74bf9fff43c987d87ef32098b9092ea94b6637377d86c08565b9374d9397f446b3fbcd95de986ec77220a16f979687cb39b7b89e2f91
+  languageName: node
+  linkType: hard
+
+"react-terminal-component@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "react-terminal-component@npm:1.5.0"
+  dependencies:
+    javascript-terminal: ^1.0.3
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^15.0.0 || ^16.0.0
+    react-dom: ^15.0.0 || ^16.0.0
+    styled-components: ^5.0.0
+  checksum: 6aaa62c65abb8fa678f30e61aa5ef17ae2d03c36042b22b28522964698e508622b11cfb46998279006c8bf7c21b651bc71236013bafdf39ae6f66cf4ffa2157c
   languageName: node
   linkType: hard
 
@@ -4807,6 +4856,7 @@ __metadata:
     eslint: 8.7.0
     eslint-config-next: 12.0.8
     immer: ^9.0.12
+    javascript-terminal: ^1.1.1
     jquery: ^3.6.0
     next: 12.0.8
     next-compose-plugins: ^2.2.1
@@ -4814,6 +4864,7 @@ __metadata:
     postcss: ^8.4.5
     react: 17.0.2
     react-dom: 17.0.2
+    react-terminal-component: ^1.5.0
     tailwindcss: ^3.0.15
     typescript: 4.5.4
     zustand: ^3.6.9

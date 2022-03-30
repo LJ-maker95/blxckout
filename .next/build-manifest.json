@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/basics.js"
     ],
-    "/terminal": [
+    "/roadmap": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/terminal.js"
+      "static/chunks/pages/roadmap.js"
     ]
   },
   "ampFirstPages": []

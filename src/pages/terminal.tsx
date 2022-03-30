@@ -4,13 +4,15 @@ import { TerminalView } from "../views";
 
 const Terminal: NextPage = (props) => {
   return (
+  <div>
     <div>
       <Head>
-        <title>BLXCKOUT</title>
+        <title>"BLXCKOUT"</title>
         <meta/>
       </Head>
       <TerminalView />
     </div>
+  </div>
   );
 };
 

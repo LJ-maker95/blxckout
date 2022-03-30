@@ -6,7 +6,7 @@ const Staking: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>BLXCKOUT</title>
+        <title>"BLXCKOUT"</title>
         <meta/>
       </Head>
       <StakingView />
