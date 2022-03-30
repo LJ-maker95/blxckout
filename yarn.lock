@@ -4426,6 +4426,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-device-detect@npm:^1.17.0":
+  version: 1.17.0
+  resolution: "react-device-detect@npm:1.17.0"
+  dependencies:
+    ua-parser-js: ^0.7.24
+  peerDependencies:
+    react: ">= 0.14.0 < 18.0.0"
+    react-dom: ">= 0.14.0 < 18.0.0"
+  checksum: bd3583e392af0e807f5329c0763d4f4f15d211363c3cfbb5308221a874faf68a7d7ac339f3c0a4d0c5878e04eaf859e9a7405f2a8ee4a57e739ac7762c1907a1
+  languageName: node
+  linkType: hard
+
 "react-dom@npm:17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
@@ -4471,6 +4483,20 @@ __metadata:
     react-dom: ^15.0.0 || ^16.0.0
     styled-components: ^5.0.0
   checksum: 6aaa62c65abb8fa678f30e61aa5ef17ae2d03c36042b22b28522964698e508622b11cfb46998279006c8bf7c21b651bc71236013bafdf39ae6f66cf4ffa2157c
+  languageName: node
+  linkType: hard
+
+"react-terminal@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "react-terminal@npm:1.2.1"
+  dependencies:
+    prop-types: ^15.7.2
+    react-device-detect: ^1.17.0
+  peerDependencies:
+    prop-types: ^15.7.2
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  checksum: bb964b0f804beb72274ff43f18cb14b782dea1191eaa170000266144bfc7ef093e9ecb9652e78d6cc01a5654520cadf7a651a2e36389aa9222ee1d51f99313be
   languageName: node
   linkType: hard
 
@@ -4864,6 +4890,7 @@ __metadata:
     postcss: ^8.4.5
     react: 17.0.2
     react-dom: 17.0.2
+    react-terminal: ^1.2.1
     react-terminal-component: ^1.5.0
     tailwindcss: ^3.0.15
     typescript: 4.5.4
@@ -5252,6 +5279,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 2e488dde7d2c4a2fa2e79cf2470600f8ce81bc0563c276b72df8ff412d74456ae532ba824650ae936ce207440c79720ddcfaa25e3cb4477572b8534fa4e34d49
+  languageName: node
+  linkType: hard
+
+"ua-parser-js@npm:^0.7.24":
+  version: 0.7.31
+  resolution: "ua-parser-js@npm:0.7.31"
+  checksum: e2f8324a83d1715601576af85b2b6c03890699aaa7272950fc77ea925c70c5e4f75060ae147dc92124e49f7f0e3d6dd2b0a91e7f40d267e92df8894be967ba8b
   languageName: node
   linkType: hard
 

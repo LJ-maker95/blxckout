@@ -7,17 +7,17 @@ export const BasicsView: FC = ({ }) => {
   return (
         <div className="md:hero mx-auto p-4">
         <div className="md:hero-content flex flex-col">
-        <h1 className="text-center text-6xl font-bold text-white bg-clip-text">
+        <h1 className="text-center text-6xl font-bold text-white py-5 bg-clip-text">
           "BLXCKOUT"
         </h1>
-        <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src="covid.png" className="max-w-sm rounded-lg shadow-1xl" />
-          <div className="items-center">
+          <div className="items-center py-10">
             <h1 className="text-4xl px-15 font-bold">We're building a project that mocks what the world has become.</h1>
             <p className="py-4 text-2xl px-15"> A collection of 2222 satirical and thought-provoking illustration PFP NFT’s on the Solana blockchain. We're a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
+            <a href="/roadmap">
             <button className="btn btn-primary">Check Roadmap</button>
-          </div>
+            </a>
         </div>
         </div>
         <h1 className="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
