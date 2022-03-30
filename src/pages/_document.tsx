@@ -15,6 +15,7 @@ class MyDocument extends Document {
         </Head>
         <body>
           <Main />
+          <h1 className="text-center"> Test </h1>
           <NextScript />
         </body>
       </Html>
