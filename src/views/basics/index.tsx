@@ -7,26 +7,26 @@ export const BasicsView: FC = ({ }) => {
   return (
         <div className="md:hero mx-auto p-4">
         <div className="md:hero-content flex flex-col">
-        <h1 className="text-center text-9xl font-bold text-white bg-clip-text">
+        <h1 className="text-center text-6xl font-bold text-white bg-clip-text">
           "BLXCKOUT"
         </h1>
         <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src="covid.png" className="max-w-sm rounded-lg shadow-1xl" />
           <div className="items-center">
-            <h1 className="text-6xl px-15 font-bold">We're building a world class community of art lovers.</h1>
-            <p className="py-4 text-3xl px-15"> A collection of 2222 satirical and thought-provoking illustration PFP NFT’s on the Solana blockchain. We're a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
+            <h1 className="text-4xl px-15 font-bold">We're building a world class community of art lovers.</h1>
+            <p className="py-4 text-2xl px-15"> A collection of 2222 satirical and thought-provoking illustration PFP NFT’s on the Solana blockchain. We're a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
             <button className="btn btn-primary">Check Roadmap</button>
           </div>
         </div>
         </div>
-        <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
-        <div className="flex-co px-15">
-        <p className="text-2xl px-15">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
+        <h1 className="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
+        <div className="flex-co py-5 px-15">
+        <p className="text-2xl py-5 px-15">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
         <p className="text-2xl py-5 px-15">The rest of this projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps and moving into DAO tooling in the long term future.</p>
         </div>
-        <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">The Art</h1>
-        <div className="flex-col text-2xl px-15">
+        <h1 className="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">The Art</h1>
+        <div className="flex-col text-2xl py-5 px-15">
         <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
         <section className="m-4 md:m-8 text-center">
