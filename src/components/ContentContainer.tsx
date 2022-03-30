@@ -40,7 +40,7 @@ export const ContentContainer: FC = props => {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/staking">
               <a>STAKING</a>
             </Link>
           </li>
