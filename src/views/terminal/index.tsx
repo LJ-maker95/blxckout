@@ -3,6 +3,12 @@ import * as $ from "jquery";
 
 export const TerminalView: FC = ({ }) => {
 
+  <div className="Jquery application">
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.32.1/js/jquery.terminal.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.32.1/css/jquery.terminal.min.css" rel="stylesheet"/>
+  </div>
+
   return (
       jQuery(function($, undefined) {
           $('#term_demo').terminal(function(command) {
@@ -20,10 +26,5 @@ export const TerminalView: FC = ({ }) => {
               prompt: 'js> '
           });
       });
-      <div className="Jquery application">
-      <script src="jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.32.1/js/jquery.terminal.min.js"></script>
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.32.1/css/jquery.terminal.min.css" rel="stylesheet"/>
-      </div>
   );
 };
