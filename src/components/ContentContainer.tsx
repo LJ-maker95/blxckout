@@ -30,8 +30,13 @@ export const ContentContainer: FC = props => {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/tech">
               <a>TECH</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/terminal">
+              <a> GET BLXCKLISTED</a>
             </Link>
           </li>
           <li>
