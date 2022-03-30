@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const TechView: FC = ({ }) => {
+export const TerminalView: FC = ({ }) => {
 
   return (
       <div>
