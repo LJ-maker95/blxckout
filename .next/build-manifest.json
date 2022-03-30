@@ -25,11 +25,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/basics": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/basics.js"
-    ],
     "/team": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

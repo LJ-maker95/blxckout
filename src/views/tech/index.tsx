@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 export const TechView: FC = ({ }) => {
-
+  
   return (
       <div>
         <h1 className="text-5xl text-center py-2 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">SOLANA 101</h1>
