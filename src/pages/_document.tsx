@@ -4,11 +4,6 @@ class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx)
 
-    if(typeof Audio != "undefined") {
-      let mySound = new Audio('Cruise With Me - Patrick Patrikios.mp3')
-      mySound.play()
-    }
-
   return initialProps
   }
 
@@ -20,6 +15,7 @@ class MyDocument extends Document {
         </Head>
         <body>
           <Main />
+          <audio id="audio" src="http://music.mp3"></audio>
           <h1 className="text-center"> Test </h1>
           <NextScript />
         </body>

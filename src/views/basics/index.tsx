@@ -20,30 +20,27 @@ export const BasicsView: FC = ({ }) => {
             </a>
         </div>
         </div>
-        <h1 className="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
+        <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
         <div className="flex-co py-5 px-15">
         <p className="text-2xl py-5 px-15">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
         <p className="text-2xl py-5 px-15">The rest of this projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps and moving into DAO tooling in the long term future.</p>
         </div>
-        <h1 className="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">Our Art</h1>
+        <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">Our Art</h1>
         <div className="flex-col text-2xl py-5 px-15">
         <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
         <section className="m-4 md:m-8 text-center">
-      	<div className="container p-4 mx-auto my-6 space-y-1 text-center">
-        <h1 className="font-bold text-transparent text-6xl bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">Magic Eden Launchpad</h1>
-      	</div>
-      	<div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-4">
+      	<div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-3">
       		<div className="flex flex-col px-8 py-4">
-      			<h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBA</h2>
+      			<h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBA</h2>
       			<p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Mint Price</p>
       		</div>
       		<div className="flex flex-col px-8 py-4 lg:border-none xl:border-solid">
-      			<h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBA</h2>
+      			<h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBA</h2>
       			<p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Supply</p>
       		   </div>
       		<div className="flex flex-col px-8 py-4">
-      			<h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBA</h2>
+      			<h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBA</h2>
       			<p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Date</p>
       		</div>
       	</div>

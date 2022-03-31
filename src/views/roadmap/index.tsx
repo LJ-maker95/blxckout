@@ -9,7 +9,8 @@ export const RoadmapView: FC = ({ }) => {
     		<div className="grid gap-4 mx-6 sm:grid-cols-12">
     			<div className="col-span-12 sm:col-span-6">
     				<div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-gray-400">
-    					<h3 className="text-3xl font-semibold">CUT THE SHIT, WE'RE BRINGING SOME OF THE BEST DAMN ILLUSTRATION ART TO THE SOLANA ECOSYSTEM WITH UNMATCHED IRL UTILITY.</h3>
+    					<h3 className="text-5xl font-semibold">CUT THE SHIT, WE'RE BRINGING SOME OF THE BEST ILLUSTRATION ART TO THE SOLANA ECOSYSTEM WITH UNMATCHED IRL UTILITY.</h3>
+              <p className="text-xs">*Roadmap is indicative, we work in an agile manner, if the community believe a different product or service will bring more value to our holders we will pivot.</p>
     				</div>
     			</div>
     			<div className="relative col-span-12 px-4 space-y-6 sm:col-span-6">
