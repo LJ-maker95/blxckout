@@ -13,8 +13,8 @@ export const BasicsView: FC = ({ }) => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src="covid.png" className="max-w-sm rounded-lg shadow-1xl" />
           <div className="items-center py-10">
-            <h1 className="text-4xl px-15 font-bold">How the fuck did we get here? Busy flipping JPEGs for money that could buy us a house.</h1>
-            <p className="py-4 text-2xl px-15"> A collection of 5000 satirical and thought-provoking illustration PFP NFT’s on the Solana blockchain. We're a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
+            <h1 className="text-4xl px-15 font-bold">How the fuck did we get here? Busy flipping JPEGs.</h1>
+            <p className="py-4 text-2xl px-15"> A collection of 5000 satirical and thought-provoking illustration PFP NFT’s on the Solana blockchain and a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
             <a href="/roadmap">
             <button className="btn btn-primary">Check Roadmap</button>
             </a>
