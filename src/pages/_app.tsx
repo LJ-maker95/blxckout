@@ -10,6 +10,7 @@ import Notifications from '../components/Notification'
 
 require('@solana/wallet-adapter-react-ui/styles.css');
 require('../styles/globals.css');
+require('../styles/typewriter.css');
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
