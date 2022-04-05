@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/team": [
+    "/staking": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/team.js"
+      "static/chunks/pages/staking.js"
     ],
     "/terminal": [
       "static/chunks/webpack.js",
