@@ -9,6 +9,7 @@ export const ArtView: FC = ({ }) => {
 
   return (
     <div className="center px-10">
+
       {/* We disable checking out without a connected wallet */}
       <Products submitTarget='/checkout' enabled={publicKey !== null} />
     </div>
