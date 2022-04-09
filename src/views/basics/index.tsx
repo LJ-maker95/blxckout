@@ -133,7 +133,7 @@ export const BasicsView: FC = ({ }) => {
               className="inline-flex items-center px-8 py-3 mt-8 text-black bg-white border border-blue-600 rounded active:text-blue-500 focus:outline-none focus:ring"
               href="/roadmap"
             >
-              <span class="text-sm font-medium"> CHECK ROADMAP </span>
+              <span className="text-sm font-medium"> CHECK ROADMAP </span>
 
               <svg
                 className="w-5 h-5 ml-3"
