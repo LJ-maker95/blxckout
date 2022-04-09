@@ -6,7 +6,7 @@ export const TeamView: FC = ({ }) => {
         <div>
             <div className="container flex justify-center bg-black mx-auto pt-16">
                 <div>
-                    <h1 className="xl:text-4xl text-3xl text-center bg-black text-white font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">BUIDLING BLXCKOUT BEHIND THE SCENES</h1>
+                    <h1 className="text-5xl text-center bg-black text-white font-extrabold pb-6 mx-auto">BUIDLING BLXCKOUT BEHIND THE SCENES</h1>
                 </div>
             </div>
             <div className="w-full bg-black px-10 pt-10">
@@ -22,7 +22,7 @@ export const TeamView: FC = ({ }) => {
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center">LJ</div>
                                     <p className="text-white text-sm text-center">Product Development & Utility</p>
-                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">Technology strategy & cloud consultant for a FAANG equivalent, ex developer - worked with Fortune 500 companies to define IT strategies for last 5+ years including brands like Virgin Media & Accenture.</p>
+                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">Technology strategy & cloud consultant for a FAANG equivalent - worked with Fortune 500 companies to define IT strategies for last 5+ years including brands like Virgin Media & Accenture.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
                                             <div>
