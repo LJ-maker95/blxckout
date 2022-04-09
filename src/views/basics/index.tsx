@@ -22,104 +22,236 @@ export const BasicsView: FC = ({ }) => {
         </div>
         <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
         <div className="flex-co py-5 px-15">
-        <p className="text-2xl py-5 px-15">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
-        <p className="text-2xl py-5 px-15">The rest of this projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps and moving into DAO tooling in the long term future.</p>
+        <p className="text-2xl py-5 px-4">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
+        <p className="text-2xl py-5 px-4">The rest of this projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps and moving into DAO tooling in the long term future.</p>
         </div>
         <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">Our Art</h1>
-        <div className="flex-col text-2xl py-5 px-15">
+        <div className="flex-col text-2xl py-5 px-4">
         <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
-        <div className="container mx-auto px-6 p-6 bg-black">
-            <div className="mb-16 text-center">
-                <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#9945FF] to-[#14F195]">Product Highlights</h1>
-            </div>
-            <div className="flex flex-wrap my-12 dark:text-white">
-                <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
-                    <div className="flex items-center mb-6">
-                        <svg width="20" height="20" fill="currentColor" className="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                            </path>
-                        </svg>
-                        <div className="ml-4 text-xl">
-                            Image to NFT iOS App
-                        </div>
-                    </div>
-                    <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                        Take pictures with any iOS device and instantly transform them into an NFT on Solana blockchain for distribution.
-                    </p>
-                </div>
-                <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8">
-                    <div className="flex items-center mb-6">
-                        <svg width="20" height="20" fill="currentColor" className="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                            </path>
-                        </svg>
-                        <div className="ml-4 text-xl">
-                            NFT Digital Photo Frame
-                        </div>
-                    </div>
-                    <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                        Link major Solana wallets with our digital photo display using our existing iOS application.
-                    </p>
-                </div>
-                <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8">
-                    <div className="flex items-center mb-6">
-                        <svg width="20" height="20" fill="currentColor" className="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                            </path>
-                        </svg>
-                        <div className="ml-4 text-xl">
-                            Control
-                        </div>
-                    </div>
-                    <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                        Apply filters and control which products to sell on each sales channel. E.g. exclude products with low margins.
-                    </p>
-                </div>
-                <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8">
-                    <div className="flex items-center mb-6">
-                        <svg width="20" height="20" fill="currentColor" className="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                            </path>
-                        </svg>
-                        <div className="ml-4 text-xl">
-                            Mapping
-                        </div>
-                    </div>
-                    <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                        Map product categories with each sales channels&#x27; own categories and achieve better results and lower costs.
-                    </p>
-                </div>
-                <div className="w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8">
-                    <div className="flex items-center mb-6">
-                        <svg width="20" height="20" fill="currentColor" className="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                            </path>
-                        </svg>
-                        <div className="ml-4 text-xl">
-                            Fill the missing
-                        </div>
-                    </div>
-                    <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                        Modify products with extra properties and achieve the maximum output for each installed sales channel.
-                    </p>
-                </div>
-                <div className="w-full md:w-1/2 lg:w-1/3 p-8">
-                    <div className="flex items-center mb-6">
-                        <svg width="20" height="20" fill="currentColor" className="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                            </path>
-                        </svg>
-                        <div className="ml-4 text-xl">
-                            Dynamic Texts
-                        </div>
-                    </div>
-                    <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                        Build unique product titles and descriptions instead of spending days manually editing each product.
-                    </p>
-                </div>
-            </div>
+        <section class="text-white bg-black">
+        <div class="max-w-screen-xl px-4 py-5 mx-auto">
+          <div class="mx-auto">
+            <h1 className="font-bold text-center text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#9945FF] to-[#14F195]">What we'll build</h1>
+
+            <p class="mt-4 text-2xl text-gray-300">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
+              aliquam doloribus nesciunt eos fugiat. Vitae aperiam fugit consequuntur
+              saepe laborum.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+            <a
+              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+              href="/services/digital-campaigns"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-pink-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path
+                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-4 text-xl font-bold text-white">Image to NFT iOS App</h3>
+
+              <p class="mt-1 text-sm text-gray-300">
+                Take pictures with any iOS device and instantly transform them into an NFT on the Solana blockchain for distribution.
+              </p>
+            </a>
+
+            <a
+              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+              href="/services/digital-campaigns"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-pink-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path
+                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-4 text-xl font-bold text-white">NFT Digital Photo Frame</h3>
+
+              <p class="mt-1 text-sm text-gray-300">
+                  Link major Solana wallets with our digital photo display using our existing iOS application.
+              </p>
+            </a>
+
+            <a
+              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+              href="/services/digital-campaigns"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-pink-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path
+                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+
+              <p class="mt-1 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+                possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+              </p>
+            </a>
+
+            <a
+              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+              href="/services/digital-campaigns"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-pink-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path
+                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+
+              <p class="mt-1 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+                possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+              </p>
+            </a>
+
+            <a
+              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+              href="/services/digital-campaigns"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-pink-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path
+                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+
+              <p class="mt-1 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+                possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+              </p>
+            </a>
+
+            <a
+              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+              href="/services/digital-campaigns"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-pink-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path
+                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+
+              <p class="mt-1 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+                possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+              </p>
+            </a>
+          </div>
+
+          <div class="mt-12 text-center">
+            <a
+              class="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"
+              href="/get-started"
+            >
+              <span class="text-sm font-medium"> Get Started </span>
+
+              <svg
+                class="w-5 h-5 ml-3"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
+      </section>
         <section className="m-4 md:m-8 text-center">
         <div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-3">
           <div className="flex flex-col px-8 py-4">

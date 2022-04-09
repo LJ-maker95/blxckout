@@ -25,11 +25,6 @@ export const ContentContainer: FC = props => {
             </Link>
           </li>
           <li>
-            <Link href="/art">
-              <a>ART</a>
-            </Link>
-          </li>
-          <li>
             <Link href="/team">
               <a>TEAM</a>
             </Link>
@@ -37,6 +32,11 @@ export const ContentContainer: FC = props => {
           <li>
             <Link href="/tech">
               <a>TECH</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/art">
+              <a>ART SHOP</a>
             </Link>
           </li>
           <li>
