@@ -20,22 +20,22 @@ export const BasicsView: FC = ({ }) => {
             </a>
         </div>
         </div>
-        <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
+        <h1 className="font-bold text-6xl text-center text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
         <div className="flex-co py-5 px-15">
-        <p className="text-2xl py-5 px-4">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
-        <p className="text-2xl py-5 px-4">The rest of this projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps and moving into DAO tooling in the long term future.</p>
+        <p className="text-2xl text-center py-5 px-4">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
+        <p className="text-2xl text-center py-5 px-4">The rest of this projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps and moving into DAO tooling in the long term future.</p>
         </div>
-        <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">Our Art</h1>
-        <div className="flex-col text-2xl py-5 px-4">
+        <h1 className="font-bold text-6xl text-center text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">Our Art</h1>
+        <div className="flex-col text-center text-2xl py-5 px-4">
         <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
         <section className="text-white bg-black">
         <div className="max-w-screen-xl px-4 py-5 mx-auto">
           <div className="mx-auto">
-            <h1 className="font-bold text-center text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#9945FF] to-[#14F195]">What we'll build</h1>
+            <h1 className="font-bold text-center text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#9945FF] to-[#14F195]">Building...</h1>
 
-            <p className="mt-4 text-2xl text-gray-300">
-              We plan to operate in the hardware space, building hardware products with integrated NFT and crypto support. We believe there is a gap between hardware products and NFTs that if filled will help increase crypto adoption and awareness of the market as a whole. Starting with Digital Photo Displays and NFT integrated furniture for personal use and expanding into more commercial use cases such as NFT Vending Machines.
+            <p className="mt-4 text-2xl text-center text-gray-300">
+              We operate in the hardware space, building hardware products with integrated NFT and crypto support. We believe there is a gap between hardware products and NFTs that if filled will help increase crypto adoption and awareness of the market as a whole. Starting with Digital Photo Displays and NFT integrated furniture for personal use and expanding into more commercial use cases such as NFT Vending Machines.
             </p>
           </div>
 
@@ -169,7 +169,7 @@ export const BasicsView: FC = ({ }) => {
           </div>
         </div>
         </section>
-        <div className="bg-lightblue py-20 px-4">
+        <div className="bg-lightblue py-5 px-4">
             <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
                 <h2 className="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
                     Frequently-asked questions
