@@ -74,7 +74,7 @@ export const BasicsView: FC = ({ }) => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-10 h-10 text-pink-500"
+                className="w-10 h-10 text-pink-500"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="lightblue"
