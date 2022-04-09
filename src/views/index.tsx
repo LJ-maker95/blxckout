@@ -6,3 +6,4 @@ export { TechView } from "./tech";
 export { TerminalView } from "./terminal";
 export { LandingView } from "./landing";
 export { StakingView } from "./staking";
+export { ArtView } from "./art";

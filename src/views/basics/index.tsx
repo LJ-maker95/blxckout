@@ -142,73 +142,45 @@ export const BasicsView: FC = ({ }) => {
         </div>
         </section>
 
-
-        <div className="divider"></div>
-        <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
-        <div className="collapse-title text-xl font-medium">
-          What is the mission?
-        </div>
-        <div tabIndex={1} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
-        <div className="collapse-title text-xl font-medium">
-          When is the mint exactly?
-        </div>
-        <div className="collapse-content">
-          <p>As it stands, we will be minting on the 2nd May 2022 at 8pm UTC. This may be impacted by a variety of factors including state and availability of the Solana blockchain, ME launchpad availability and any art delays. </p>
-        </div>
-        </div>
-        <div className="collapse-content">
-          <p>To bring high quality art to the Solana NFT scene coupled with unmatched utility in real life. We have one physical product under development that we'd like to keep under wraps for the moment, as well as a pipeline and vision for building a product brand.</p>
-        </div>
+      <div class="bg-lightblue py-20 px-4">
+          <div class="mx-auto max-w-6xl flex flex-col md:flex-row">
+              <h2 class="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
+                  Frequently-asked questions
+              </h2>
+              <dl class="w-full md:w-2/3">
+                  <dt class="mb-4">
+                      <h3 class="text-xl font-semibold">
+                          What is the mission?
+                      </h3>
+                  </dt>
+                  <dd class="mb-16">
+                      <p>
+                         To bring high quality art to the Solana NFT scene coupled with unmatched utility in real life. We have one physical product under development that we'd like to keep under wraps for the moment, as well as a pipeline and vision for building a product brand.
+                      </p>
+                  </dd>
+                  <dt class="mb-4">
+                      <h3 class="text-xl font-semibold">
+                          When is the mint exactly?
+                      </h3>
+                  </dt>
+                  <dd class="mb-16">
+                      <p>
+                        As it stands, we will be minting on the 2nd May 2022 at 8pm UTC. This may be impacted by a variety of factors including state and availability of the Solana blockchain, ME launchpad availability and any art delays.
+                      </p>
+                  </dd>
+                  <dt class="mb-4">
+                      <h3 class="text-xl font-semibold">
+                          How will we get there?
+                      </h3>
+                  </dt>
+                  <dd class="mb-16">
+                      <p>
+                        We believe we have the expertise within our team and their connections to build against our vision. We have in-house development capability, marketing expertise and the best artist of all time (in our opinion) on the internal team.
+                      </p>
+                  </dd>
+              </dl>
+          </div>
       </div>
-      <div tabIndex={1} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
-      <div className="collapse-title text-xl font-medium">
-        How will we get there?
-      </div>
-      <div className="collapse-content">
-        <p>We believe we have the expertise within our team and their connections to build against our vision. We have in-house development capability, marketing expertise and the best artist of all time (in our opinion) on the internal team.</p>
-      </div>
-
-<div class="bg-lightblue py-20 px-4">
-    <div class="mx-auto max-w-6xl flex flex-col md:flex-row">
-        <h2 class="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
-            Frequently-asked questions
-        </h2>
-        <dl class="w-full md:w-2/3">
-            <dt class="mb-4">
-                <h3 class="text-xl font-semibold">
-                    We already have ongoing projects. Will Valohai easily integrate with them?
-                </h3>
-            </dt>
-            <dd class="mb-16">
-                <p>
-                    Running existing machine learning projects in Valohai is very simple! Integration only requires adding a valohai.yaml configuration file. Moving projects in and out of Valohai is easy – the integration is only the configuration file.
-                </p>
-            </dd>
-            <dt class="mb-4">
-                <h3 class="text-xl font-semibold">
-                    How do you compare to other data science platforms?
-                </h3>
-            </dt>
-            <dd class="mb-16">
-                <p>
-                    We don’t. Valohai isn’t a data science platform; it&#x27;s a Machine Learning Management Platform that handles the whole ML pipeline from feature extraction, to training of your model and to deploying it into production in a reproducible manner. Data science platforms offer hosted notebooks and AutoML solutions.
-                </p>
-            </dd>
-            <dt class="mb-4">
-                <h3 class="text-xl font-semibold">
-                    Does Valohai charge for computation?
-                </h3>
-            </dt>
-            <dd class="mb-16">
-                <p>
-                    Depends. Most of our customers use their own cloud and thus pay for usage according to their own agreements. Valohai doesn&#x27;t charge anything on top of the per-user license fee. If you don&#x27;t have a cloud provider, you can use our AWS, GCP and Azure accounts, and we&#x27;ll only charge you for what you use.
-                </p>
-            </dd>
-        </dl>
-    </div>
-</div>
-
-    </div>
     </div>
   </div>
   );

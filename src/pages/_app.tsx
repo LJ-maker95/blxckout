@@ -18,7 +18,6 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
           <Head>
             <title>BLXCKOUT</title>
           </Head>
-
           <ContextProvider>
             <div className="flex flex-col h-screen">
               <Notifications />
@@ -32,6 +31,5 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
         </>
     );
 };
-
 
 export default App;
