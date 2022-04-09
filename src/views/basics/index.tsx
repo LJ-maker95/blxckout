@@ -29,23 +29,23 @@ export const BasicsView: FC = ({ }) => {
         <div className="flex-col text-2xl py-5 px-4">
         <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
-        <section class="text-white bg-black">
-        <div class="max-w-screen-xl px-4 py-5 mx-auto">
-          <div class="mx-auto">
+        <section className="text-white bg-black">
+        <div className="max-w-screen-xl px-4 py-5 mx-auto">
+          <div className="mx-auto">
             <h1 className="font-bold text-center text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#9945FF] to-[#14F195]">What we'll build</h1>
 
-            <p class="mt-4 text-2xl text-gray-300">
+            <p className="mt-4 text-2xl text-gray-300">
               We plan to operate in the hardware space, building hardware products with integrated NFT and crypto support. We believe there is a gap between hardware products and NFTs that if filled will help increase crypto adoption and awareness of the market as a whole. Starting with Digital Photo Displays and NFT integrated furniture for personal use and expanding into more commercial use cases such as NFT Vending Machines.
             </p>
           </div>
 
-          <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
             <a
-              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+              className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-10 h-10 text-pink-500"
+                className="w-10 h-10 text-pink-500"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="lightblue"
@@ -62,15 +62,15 @@ export const BasicsView: FC = ({ }) => {
                 />
               </svg>
 
-              <h3 class="mt-4 text-xl font-bold text-white">Image to NFT iOS App</h3>
+              <h3 className="mt-4 text-xl font-bold text-white">Image to NFT iOS App</h3>
 
-              <p class="mt-1 text-sm text-gray-300">
+              <p className="mt-1 text-sm text-gray-300">
                 Take pictures with any iOS device and instantly transform them into an NFT on the Solana blockchain for distribution.
               </p>
             </a>
 
             <a
-              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+              className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -91,19 +91,19 @@ export const BasicsView: FC = ({ }) => {
                 />
               </svg>
 
-              <h3 class="mt-4 text-xl font-bold text-white">NFT Digital Photo Frame</h3>
+              <h3 className="mt-4 text-xl font-bold text-white">NFT Digital Photo Frame</h3>
 
-              <p class="mt-1 text-sm text-gray-300">
+              <p className="mt-1 text-sm text-gray-300">
                   Link major Solana wallets with our digital photo display using our existing iOS application.
               </p>
             </a>
 
             <a
-              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+              className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-10 h-10 text-pink-500"
+                className="w-10 h-10 text-pink-500"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="lightblue"
@@ -120,23 +120,23 @@ export const BasicsView: FC = ({ }) => {
                 />
               </svg>
 
-              <h3 class="mt-4 text-xl font-bold text-white">NFT Furniture</h3>
+              <h3 className="mt-4 text-xl font-bold text-white">NFT Furniture</h3>
 
-              <p class="mt-1 text-sm text-gray-300">
+              <p className="mt-1 text-sm text-gray-300">
                 Custom hand made British furniture with integrated NFT display support available for purchase with our token.
               </p>
             </a>
           </div>
 
-          <div class="mt-12 text-center">
+          <div className="mt-12 text-center">
             <a
-              class="inline-flex items-center px-8 py-3 mt-8 text-black bg-white border border-blue-600 rounded active:text-blue-500 focus:outline-none focus:ring"
-              href="/get-started"
+              className="inline-flex items-center px-8 py-3 mt-8 text-black bg-white border border-blue-600 rounded active:text-blue-500 focus:outline-none focus:ring"
+              href="/roadmap"
             >
               <span class="text-sm font-medium"> CHECK ROADMAP </span>
 
               <svg
-                class="w-5 h-5 ml-3"
+                className="w-5 h-5 ml-3"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
