@@ -5,28 +5,63 @@ import { SendTransaction } from '../../components/SendTransaction';
 export const BasicsView: FC = ({ }) => {
 
   return (
+
         <div className="md:hero mx-auto p-4">
         <div className="md:hero-content flex flex-col">
-        <h1 className="text-center text-6xl font-bold text-white py-5 bg-clip-text">
+        <h1 className="text-center text-6xl font-bold text-white bg-clip-text">
           "BLXCKOUT"
         </h1>
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src="covid.png" className="max-w-sm rounded-lg shadow-1xl" />
-          <div className="items-center py-10">
-            <h1 className="text-4xl px-15 font-bold">How the fuck did we get here? Busy flipping JPEGs.</h1>
-            <p className="py-4 text-2xl px-15"> A collection of 5000 satirical and thought-provoking illustration PFP NFT’s on the Solana blockchain and a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.</p>
-            <a href="/roadmap">
-            <button className="btn btn-primary">Check Roadmap</button>
-            </a>
+        <section>
+        <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
+            <div
+              class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full lg:order-last"
+            >
+              <img
+                class="absolute inset-0 object-cover w-full h-full"
+                src="covid.png"
+                alt="Covid"
+              />
+            </div>
+
+            <div class="lg:py-10">
+              <h2 class="text-3xl font-bold sm:text-4xl">Bringing NFT's into real life</h2>
+
+              <p class="mt-4 text-2xl text-white-600">
+                A collection of 5000 satirical and thought-provoking illustration PFP NFT’s on the Solana blockchain and a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.
+              </p>
+
+              <a
+                class="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
+                href="/roadmap"
+              >
+                <span class="text-sm font-medium"> Check Roadmap </span>
+
+                <svg
+                  class="w-5 h-5 ml-3"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
-        </div>
+        </section>
         <h1 className="font-bold text-6xl text-center text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
         <div className="flex-co py-5 px-15">
-        <p className="text-2xl text-center py-5 px-4">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability.</p>
-        <p className="text-2xl text-center py-5 px-4">The rest of this projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps and moving into DAO tooling in the long term future.</p>
+        <p className="text-2xl py-5 px-4">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability initially, but as we build out our business it will also provide our holders with significant discounts on our products,a share of revenues and access to limited edition product auctions. This projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps.</p>
         </div>
         <h1 className="font-bold text-6xl text-center text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">Our Art</h1>
-        <div className="flex-col text-center text-2xl py-5 px-4">
+        <div className="flex-col text-2xl py-5 px-4">
         <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
         <section className="text-white bg-black">
@@ -34,7 +69,7 @@ export const BasicsView: FC = ({ }) => {
           <div className="mx-auto">
             <h1 className="font-bold text-center text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#9945FF] to-[#14F195]">Building...</h1>
 
-            <p className="mt-4 text-2xl text-center text-gray-300">
+            <p className="mt-4 text-2xl text-gray-300">
               We operate in the hardware space, building hardware products with integrated NFT and crypto support. We believe there is a gap between hardware products and NFTs that if filled will help increase crypto adoption and awareness of the market as a whole. Starting with Digital Photo Displays and NFT integrated furniture for personal use and expanding into more commercial use cases such as NFT Vending Machines.
             </p>
           </div>
@@ -119,11 +154,10 @@ export const BasicsView: FC = ({ }) => {
                   d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
                 />
               </svg>
-
               <h3 className="mt-4 text-xl font-bold text-white">NFT Furniture</h3>
 
               <p className="mt-1 text-sm text-gray-300">
-                Custom hand made British furniture with integrated NFT display support available for purchase with our token.
+                Limited edition, custom hand made British furniture with integrated NFT display support available for purchase with our token.
               </p>
             </a>
           </div>
@@ -156,15 +190,15 @@ export const BasicsView: FC = ({ }) => {
         <section className="m-4 md:m-8 text-center">
         <div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-3">
           <div className="flex flex-col px-8 py-4">
-            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBA</h2>
+            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">1.5 SOL</h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Mint Price</p>
           </div>
           <div className="flex flex-col px-8 py-4 lg:border-none xl:border-solid">
-            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBA</h2>
+            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">5000</h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Supply</p>
              </div>
           <div className="flex flex-col px-8 py-4">
-            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBA</h2>
+            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBC</h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Date</p>
           </div>
         </div>
