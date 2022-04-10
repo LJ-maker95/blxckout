@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { ArtView } from "../views";
-import Products from '/src/components/Products'
-import { useWallet } from '@solana/wallet-adapter-react'
-import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
+import Products from '/src/components/Products';
+import { useWallet } from '@solana/wallet-adapter-react';
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 
 const Art: NextPage = (props) => {
   const { publicKey } = useWallet()
