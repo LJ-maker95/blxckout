@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/art.js"
     ],
-    "/tech": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tech.js"
-    ],
     "/terminal": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
