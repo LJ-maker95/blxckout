@@ -28,16 +28,16 @@ export const AppBar: FC = props => {
               <a className="btn btn-ghost btn-sm rounded-btn">PROJECT</a>
               </Link>
             <Link href="/roadmap">
-              <a className="btn btn-ghost btn-sm rounded-btn">BLXCKMAP</a>
-            </Link>
-            <Link href="/art">
-              <a className="btn btn-ghost btn-sm rounded-btn">ART SHOP</a>
+              <a className="btn btn-ghost btn-sm rounded-btn">ROADMAP</a>
             </Link>
             <Link href="/team">
               <a className="btn btn-ghost btn-sm rounded-btn">TEAM</a>
             </Link>
             <Link href="/tech">
               <a className="btn btn-ghost btn-sm rounded-btn">TECH</a>
+            </Link>
+            <Link href="/art">
+              <a className="btn btn-ghost btn-sm rounded-btn">ART SHOP</a>
             </Link>
             <Link href="/terminal">
               <a className="btn btn-ghost btn-sm rounded-btn">GET BLXCKLISTED</a>
