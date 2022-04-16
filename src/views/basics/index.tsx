@@ -6,53 +6,13 @@ export const BasicsView: FC = ({ }) => {
 
   return (
 
-        <div className="md:hero mx-auto p-4">
+        <div className="md:hero mx-auto py-50 p-4">
         <div className="md:hero-content flex flex-col">
-        <h1 className="text-center text-6xl font-bold text-white bg-clip-text">
-          "BLXCKOUT"
-        </h1>
+
         <section>
-        <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
-            <div
-              className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full lg:order-last"
-            >
-              <img
-                className="absolute inset-0 object-cover w-full h-full"
-                src="covid.png"
-                alt="Covid"
-              />
-            </div>
-
-            <div className="lg:py-10">
-              <h2 className="text-3xl font-bold sm:text-4xl">Incorporating NFT's in to physical products</h2>
-
-              <p className="mt-4 text-2xl text-white-600">
-                A collection of 5000 satirical and thought-provoking illustration PFP NFT’s on the Solana blockchain and a team of experienced technology and marketing professionals trying to change the status quo and perception of nfts.
-              </p>
-
-              <a
-                className="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
-                href="/roadmap"
-              >
-                <span className="text-sm font-medium"> Check Roadmap </span>
-
-                <svg
-                  className="w-5 h-5 ml-3"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </a>
-            </div>
+        <div className="max-w-screen-xl px-4 py-20 mx-auto lg:px-8">
+          <div className="typewriter">
+            <h1 className="text-center text-8xl py-50 font-bold text-white">BLXCKOUT</h1>
           </div>
         </div>
         </section>
