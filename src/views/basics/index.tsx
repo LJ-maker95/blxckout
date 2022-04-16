@@ -12,31 +12,31 @@ export const BasicsView: FC = ({ }) => {
         <section>
         <div className="max-w-screen-xl py-20 mx-auto lg:px-8">
           <div className="typewriter">
-            <h1 className="text-center text-9xl py-50 font-bold text-white">BLXCKOUT NFT</h1>
+            <h1 className="flex max-w-screen-xltext-center md:hero mx-auto text-9xl text-bold ">BLXCKOUT NFT</h1>
           </div>
           <div className="max-w-screen-xl text-center py-20">
-            <p className="text-2xl" >Mint coming July 2022..</p>
+            <p className="text-2xl" >Mint date: July 2022</p>
           </div>
         </div>
         </section>
 
         <section>
-        <div className="flex-co py-20 px-4">
-        <h1 className="font-bold text-leading text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
-        <p className="text-2xl py-5">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability initially, but as we build out our business it will also provide our holders with significant discounts on our products,a share of revenues and access to limited edition product auctions. This projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps.</p>
+        <div className="flex-co py-5 px-4">
+          <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">About Us</h1>
+          <p className="text-2xl py-5">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability initially, but as we build out our business it will also provide our holders with significant discounts on our products,a share of revenues and access to limited edition product auctions. This projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps.</p>
         </div>
-        <div className="flex-col text-2xl py-5 px-4">
-        <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#9945FF] to-[#14F195]">Our Art</h1>
-        <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
+        <div className="flex-col text-2xl px-4">
+          <h1 className="font-bold text-6xl text-transparent py-5 bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">Our Art</h1>
+          <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
         </section>
 
         <section className="text-white bg-black">
-        <div className="max-w-screen-xl px-4 py-5 mx-auto">
+        <div className="max-w-screen-xl mx-auto py-5 px-4">
           <div className="mx-auto">
-            <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#9945FF] to-[#14F195]">Building...</h1>
+            <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#eacda3] to-[#d6ae7b]">Building...</h1>
 
-            <p className="mt-4 text-2xl text-gray-300">
+            <p className="mt-4 text-2xl pb-5 text-gray-300">
               We operate in the hardware space, building hardware products with integrated NFT and crypto support. We believe there is a gap between hardware products and NFTs that if filled will help increase crypto adoption and awareness of the market as a whole. Starting with Digital Photo Displays and NFT integrated furniture for personal use and expanding into more commercial use cases such as NFT Vending Machines.
             </p>
           </div>
@@ -157,15 +157,15 @@ export const BasicsView: FC = ({ }) => {
         <section className="m-4 md:m-8 text-center">
         <div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-3">
           <div className="flex flex-col px-8 py-4">
-            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">1.5 SOL</h2>
+            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">1.5 SOL</h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Mint Price</p>
           </div>
           <div className="flex flex-col px-8 py-4 lg:border-none xl:border-solid">
-            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">5000</h2>
+            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">5000</h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Supply</p>
              </div>
           <div className="flex flex-col px-8 py-4">
-            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">TBC</h2>
+            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">TBC</h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Date</p>
           </div>
         </div>
@@ -177,7 +177,7 @@ export const BasicsView: FC = ({ }) => {
                 </h2>
                 <dl className="w-full md:w-2/3">
                     <dt className="mb-4">
-                        <h3 className="text-xl font-semibold">
+                        <h3 className="text-2xl font-semibold">
                             What is the mission?
                         </h3>
                     </dt>
@@ -187,7 +187,7 @@ export const BasicsView: FC = ({ }) => {
                         </p>
                     </dd>
                     <dt className="mb-4">
-                        <h3 className="text-xl font-semibold">
+                        <h3 className="text-2xl font-semibold">
                             When is the mint exactly?
                         </h3>
                     </dt>
@@ -197,7 +197,7 @@ export const BasicsView: FC = ({ }) => {
                         </p>
                     </dd>
                     <dt className="mb-4">
-                        <h3 className="text-xl font-semibold">
+                        <h3 className="text-2xl font-semibold">
                             How will we get there?
                         </h3>
                     </dt>
