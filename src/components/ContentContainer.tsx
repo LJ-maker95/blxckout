@@ -44,11 +44,6 @@ export const ContentContainer: FC = props => {
               <a> GET BLXCKLISTED</a>
             </Link>
           </li>
-          <li>
-            <Link href="/staking">
-              <a>STAKING</a>
-            </Link>
-          </li>
         </ul>
       </div>
     </div>
