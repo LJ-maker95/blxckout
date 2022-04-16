@@ -14,6 +14,9 @@ export const BasicsView: FC = ({ }) => {
           <div className="typewriter">
             <h1 className="text-center text-8xl py-50 font-bold text-white">BLXCKOUT</h1>
           </div>
+          <div className="max-w-screen-xl text-center py-20">
+            <p1 className="font-bold text-white">Mint coming July 2022..</p1>
+          </div>
         </div>
         </section>
 
