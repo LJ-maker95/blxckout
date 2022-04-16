@@ -4,11 +4,6 @@ export const TeamView: FC = ({ }) => {
 
     return (
         <div>
-            <div className="container flex justify-center bg-black mx-auto pt-16">
-                <div>
-                    <h1 className="text-5xl text-center bg-black text-white font-extrabold pb-6 mx-auto">BUIDLING BLXCKOUT BEHIND THE SCENES</h1>
-                </div>
-            </div>
             <div className="w-full bg-black px-10 pt-10">
                 <div className="container mx-auto">
                     <div className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
@@ -21,8 +16,8 @@ export const TeamView: FC = ({ }) => {
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center">LJ</div>
-                                    <p className="text-white text-sm text-center">Product Development & Utility</p>
-                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">Technology strategy & cloud consultant for a FAANG equivalent - worked with Fortune 500 companies to define IT strategies for last 5+ years including brands like Virgin Media & Accenture.</p>
+                                    <p className="text-white text-3xl text-center">Product Development</p>
+                                    <p className="text-center text-gray-400 text-2xl text-base pt-3 font-normal">Technology strategy & cloud consultant for a FAANG equivalent - worked with Fortune 500 companies to define IT strategies for last 5+ years including brands like Virgin Media & Accenture.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
                                             <div>
@@ -51,8 +46,8 @@ export const TeamView: FC = ({ }) => {
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center pb-1">Solbrood</div>
-                                    <p className="text-white text-sm text-center">Community & Creative</p>
-                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">Videographer and creative, previously worked with numerous global lifestyle brands including Timeout UK. He has directed, produced, filmed and edited both long and short form content for social media.</p>
+                                    <p className="text-white text-3xl text-center">Community & Creative</p>
+                                    <p className="text-center text-gray-400 text-2xl text-base pt-3 font-normal">Creative, previously worked with numerous global lifestyle brands including Timeout UK. He has directed, produced, filmed and edited both long and short form content for social media.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="https://twitter.com/solbrood" className="mx-5">
                                             <div>
@@ -74,8 +69,8 @@ export const TeamView: FC = ({ }) => {
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center pb-1">Big C</div>
-                                    <p className="text-white text-sm text-center">Economy & Tokenomics</p>
-                                    <p className="text-center text-gray-400 text-base pt-3 font-normal">PHD Economics student at University College London (UCL) repsonsible for designing the economic model for our token. Big C will work closely with LJ and Solbrood to build out the social economy and research DAO's. </p>
+                                    <p className="text-white text-3xl text-center">Economy & Tokenomics</p>
+                                    <p className="text-center text-gray-400 text-2xl text-base pt-3 font-normal">PHD Economics student at University College London (UCL) repsonsible for designing the economic model for our token. Big C will work closely with LJ and Solbrood to build out the social economy and research DAO's. </p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
                                             <div>
@@ -86,6 +81,11 @@ export const TeamView: FC = ({ }) => {
                                         </a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="container flex justify-center bg-black mx-auto pt-16">
+                            <div>
+                                <h1 className="text-5xl text-center bg-black text-white font-extrabold pb-6 mx-auto">BUIDLING BLXCKOUT BEHIND THE SCENES</h1>
                             </div>
                         </div>
                     </div>

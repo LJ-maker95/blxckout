@@ -22,7 +22,7 @@ export const AppBar: FC = props => {
         </div>
 
         {/* Nav Links */}
-        <div className="hidden md:inline md:navbar-center">
+        <div className="hidden md:inline md:navbar-right">
           <div className="flex items-stretch">
             <Link href="/basics">
               <a className="btn btn-ghost btn-sm rounded-btn">PROJECT</a>

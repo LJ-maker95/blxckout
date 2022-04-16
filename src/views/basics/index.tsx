@@ -10,17 +10,18 @@ export const BasicsView: FC = ({ }) => {
         <div className="md:hero-content flex flex-col">
 
         <section>
-        <div className="max-w-screen-xl px-4 py-20 mx-auto lg:px-8">
+        <div className="max-w-screen-xl py-20 mx-auto lg:px-8">
           <div className="typewriter">
-            <h1 className="text-center text-8xl py-50 font-bold text-white">BLXCKOUT</h1>
+            <h1 className="text-center text-9xl py-50 font-bold text-white">BLXCKOUT NFT</h1>
           </div>
           <div className="max-w-screen-xl text-center py-20">
-            <p1 className="font-bold text-white">Mint coming July 2022..</p1>
+            <p className="text-2xl" >Mint coming July 2022..</p>
           </div>
         </div>
         </section>
 
-        <div className="flex-co py-5 px-4">
+        <section>
+        <div className="flex-co py-20 px-4">
         <h1 className="font-bold text-leading text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">About Us</h1>
         <p className="text-2xl py-5">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability initially, but as we build out our business it will also provide our holders with significant discounts on our products,a share of revenues and access to limited edition product auctions. This projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps.</p>
         </div>
@@ -28,6 +29,7 @@ export const BasicsView: FC = ({ }) => {
         <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#9945FF] to-[#14F195]">Our Art</h1>
         <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
+        </section>
 
         <section className="text-white bg-black">
         <div className="max-w-screen-xl px-4 py-5 mx-auto">
