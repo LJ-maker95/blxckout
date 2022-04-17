@@ -6,8 +6,9 @@ const Roadmap: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>"BLXCKOUT"</title>
+        <title>BLXCKOUT NFT</title>
         <meta/>
+        <script type="text/javascript" src="/static/roadmap.js"></script>
       </Head>
       <RoadmapView />
     </div>
