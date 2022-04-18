@@ -6,7 +6,7 @@ const Landing: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>"BLXCKOUT"</title>
+        <title>BLXCKOUT NFT</title>
         <meta/>
       </Head>
       <LandingView />

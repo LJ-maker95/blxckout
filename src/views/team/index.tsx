@@ -9,7 +9,7 @@ export const TeamView: FC = ({ }) => {
                     <div className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
                     <div className="container flex justify-center bg-black mx-auto pt-16">
                         <div>
-                            <h1 className="text-4xl text-center bg-black text-white pb-10 mx-auto">BUIDLING BLXCKOUT BEHIND THE SCENES</h1>
+                            <h1 className="text-4xl text-center bg-black text-white pb-10 mx-auto">CORE TEAM</h1>
                         </div>
                     </div>
                         <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
@@ -21,7 +21,7 @@ export const TeamView: FC = ({ }) => {
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center">LJ</div>
-                                    <p className="text-white text-3xl text-center">Product Development</p>
+                                    <p className="text-white text-2xl text-center">Product Development</p>
                                     <p className="text-center text-gray-400 text-2xl text-base pt-3 font-normal">Technology strategy & cloud consultant for a FAANG equivalent - worked with Fortune 500 companies to define IT strategies for last 5+ years including brands like Virgin Media & Accenture.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
@@ -51,7 +51,7 @@ export const TeamView: FC = ({ }) => {
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center pb-1">Solbrood</div>
-                                    <p className="text-white text-3xl text-center">Community & Creative</p>
+                                    <p className="text-white text-2xl text-center">Community & Creative</p>
                                     <p className="text-center text-gray-400 text-2xl text-base pt-3 font-normal">Creative, previously worked with numerous global lifestyle brands including Timeout UK. He has directed, produced, filmed and edited both long and short form content for social media.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="https://twitter.com/solbrood" className="mx-5">
@@ -74,7 +74,7 @@ export const TeamView: FC = ({ }) => {
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center pb-1">Big C</div>
-                                    <p className="text-white text-3xl text-center">Economy & Tokenomics</p>
+                                    <p className="text-white text-2xl text-center">Economy & Tokenomics</p>
                                     <p className="text-center text-gray-400 text-2xl text-base pt-3 font-normal">PHD Economics student at University College London (UCL) repsonsible for designing the economic model for our token. Big C will work closely with LJ and Solbrood to build out the social economy and research DAO's. </p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">

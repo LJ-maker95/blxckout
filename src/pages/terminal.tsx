@@ -7,7 +7,7 @@ const Terminal: NextPage = (props) => {
   <div>
     <div>
       <Head>
-        <title>"BLXCKOUT"</title>
+        <title>BLXCKOUT NFT</title>
         <meta/>
       </Head>
       <TerminalView />
