@@ -5,8 +5,7 @@ export const RoadmapView: FC = ({ }) => {
   return (
     <body className="roadmap" data-spy="scroll" data-target="#navbar-example">
 
-
-      <div className="wrapper" >
+      <div className="wrapper">
 
         <nav className="nav__wrapper" id="navbar-example">
           <ul className="nav">
@@ -63,27 +62,51 @@ export const RoadmapView: FC = ({ }) => {
         </nav>
 
         <section className="section section1" id="section1">
-          Scroll down or use the nav.
+          <div className="flex flex-col border-opacity-50">
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center">Stage 1: Grow the Community.</div>
+            <div className="divider" />
+            <div className="grid h-20 card bg-base-200 rounded-box place-items-center">Collaborate with other artists and projects.</div>
+          </div>
         </section>
 
         <section className="section section2" id="section2">
-          Section 2
+          <div className="flex flex-col w-mid border-opacity-50">
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center">Stage 2: Staking Go-live.</div>
+            <div className="divider" />
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center">Staking mechanism for $BLXCK introduced.</div>
+          </div>
         </section>
 
         <section className="section section3" id="section3">
-          Section 3
+          <div className="flex flex-col w-lg border-opacity-50">
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center">Stage 3: Building.</div>
+            <div className="divider" />
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center">Introduction of iOS application closed alpha.</div>
+          </div>
         </section>
 
         <section className="section section4" id="section4">
-          Section 4
+          <div className="flex flex-col w-mid border-opacity-50">
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center">Stage 4: Building cont. </div>
+            <div className="divider" />
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center"><p>Launch node to bring gov data on chain.</p></div>
+          </div>
         </section>
 
         <section className="section section5" id="section5">
-          Section 5
+          <div className="flex flex-col w-mid border-opacity-50">
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center">Stage 5: Build the Community.</div>
+            <div className="divider" />
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center"><p>Build the community.</p></div>
+          </div>
         </section>
 
         <section className="section section6" id="section6">
-          Section 6
+          <div className="flex flex-col w-mid border-opacity-50">
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center">Stage 6: Build the Community.</div>
+            <div className="divider" />
+            <div className="grid h-20 card bg-base-300 rounded-box place-items-center"><p>Build the community.</p></div>
+          </div>
         </section>
       </div>
     </body>

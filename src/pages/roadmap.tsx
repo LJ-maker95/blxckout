@@ -8,8 +8,8 @@ const Roadmap: NextPage = (props) => {
       <Head>
         <title>BLXCKOUT NFT</title>
         <meta/>
-        <script type="text/javascript" src="/static/roadmap.js"></script>
       </Head>
+      <script type="text/javascript" src="/static/roadmap.js"></script>
       <RoadmapView />
     </div>
   );

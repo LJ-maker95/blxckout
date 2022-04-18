@@ -23,3 +23,162 @@ a {
 .wallet-adapter-button:not([disabled]):hover {
   background-color: #000000;
 }
+
+.wrapper {
+  min-height: 100vh;
+  font-weight: 300;
+  position: relative;
+}
+
+.roadmap .section {
+  height: 100vh;
+  font-size: 40px;
+  font-weight: 100;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmap .section2 {
+  height: 100vh;
+  font-size: 40px;
+  font-weight: 100;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmap .section3 {
+  height: 100vh;
+  font-size: 40px;
+  font-weight: 100;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmap .section4 {
+  height: 100vh;
+  font-size: 40px;
+  font-weight: 100;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmap .section5 {
+  height: 100vh;
+  font-size: 40px;
+  font-weight: 100;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmap .section6 {
+  height: 100vh;
+  font-size: 40px;
+  font-weight: 100;
+  font-color: black;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__wrapper {
+  position: fixed;
+  height: 75%;
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  margin: 0 0 75px 30px;
+}
+.nav__counter {
+  font-size: 24px;
+  transition: all 0.15s ease-out;
+}
+
+.nav__title {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0 0 0.25em;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+.nav__body {
+  font-weight: 100;
+  font-size: 18px;
+  font-size: 18px;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+.roadmap li {
+  position: relative;
+  transition: all 0.3s ease-out;
+  margin-bottom: 1em;
+  }
+
+.roadmap li ::after {
+  content: '';
+  display: block;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  height: 100px;
+  width: 20px;
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+
+.roadmap a .presentation ::after {
+  display: block;
+  padding: 0;
+  color: #fff;
+  transition: all 0.15s ease-out;
+}
+.roadmap a :hover {
+  background-color: transparent;
+  padding-left: 1em
+}
+.roadmap a :focus {
+  background-color: transparent;
+}
+
+.roadmap a :active {
+  pointer-events: none;
+  padding-left: 1em;
+}
+.roadmap a .presentation :after {
+  width: 35px;
+  height: 400px;
+  top: 35px;
+}
+
+.nav__counter :after {
+  font-size: 48px;
+}
+.nav__title :after {
+  height: 40px;
+  opacity: 1;
+  overflow: visible;
+}
+.nav__body :after {
+  height: 100px;
+  opacity: 1;
+  overflow: visible;
+}
