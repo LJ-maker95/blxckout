@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/basics": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/basics.js"
+    ],
     "/roadmap": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/roadmap.js"
-    ],
-    "/terminal": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/terminal.js"
     ]
   },
   "ampFirstPages": []

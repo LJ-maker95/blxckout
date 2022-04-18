@@ -16,6 +16,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
         <>
           <Head>
             <title>BLXCKOUT NFT</title>
+            <script type="text/javascript" src="/static/roadmap.js"></script>
           </Head>
           <ContextProvider>
             <div className="flex flex-col h-screen">

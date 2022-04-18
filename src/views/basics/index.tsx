@@ -9,7 +9,6 @@ export const BasicsView: FC = ({ }) => {
         <div className="md:hero mx-auto py-50 p-4">
         <div className="md:hero-content flex flex-col">
 
-        <section>
         <div className="max-w-screen-xl py-10 mx-auto lg:px-8">
           <div className="typewriter">
             <h1 className="flex max-w-screen-xltext-center md:hero mx-auto text-9xl text-bold ">BLXCKOUT</h1>
@@ -33,9 +32,7 @@ export const BasicsView: FC = ({ }) => {
             </ a>
           </div>
         </div>
-        </section>
-
-        <section>
+        
         <div className="flex-co py-5 px-4">
           <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">About Us</h1>
           <p className="text-2xl py-5">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability initially, but as we build out our business it will also provide our holders with significant discounts on our products,a share of revenues and access to limited edition product auctions. This projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps.</p>
@@ -44,9 +41,7 @@ export const BasicsView: FC = ({ }) => {
           <h1 className="font-bold text-6xl text-transparent py-5 bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">Our Art</h1>
           <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
-        </section>
 
-        <section className="text-white bg-black">
         <div className="max-w-screen-xl mx-auto py-5 px-4">
           <div className="mx-auto">
             <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#eacda3] to-[#d6ae7b]">Building...</h1>
@@ -168,8 +163,7 @@ export const BasicsView: FC = ({ }) => {
             </a>
           </div>
         </div>
-      </section>
-        <section className="m-4 md:m-8 text-center">
+
         <div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-3">
           <div className="flex flex-col px-8 py-4">
             <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">1.5 SOL</h2>
@@ -184,7 +178,7 @@ export const BasicsView: FC = ({ }) => {
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Date</p>
           </div>
         </div>
-        </section>
+
         <div className="bg-lightblue py-5 px-4">
             <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
                 <h2 className="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
