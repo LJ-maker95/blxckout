@@ -11,7 +11,7 @@ export const BasicsView: FC = ({ }) => {
 
         <div className="max-w-screen-xl py-5 mx-auto lg:px-8">
           <div className="typewriter">
-            <h1 className="flex max-w-screen-xltext-center md:hero mx-auto text-9xl text-bold ">BLXCKOUT NFT</h1>
+            <h1 className="flex max-w-screen-xltext-center md:hero mx-auto text-9xl text-bold  text-transparent bg-clip-text bg-gradient-to-tr py-5 from-blue-600 to-purple-600 ">BLXCKOUT NFT</h1>
           </div>
           <div className="max-w-screen-xl text-center py-20">
             <p className="text-2xl pb-20" >Mint date: Late June - July 2022</p>
@@ -66,26 +66,26 @@ export const BasicsView: FC = ({ }) => {
         </div>
 
         <div id="aboutus" className="flex-co py-5 px-4">
-          <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">About Us</h1>
+          <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 ">About Us</h1>
           <p className="text-2xl py-5">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability initially, but as we build out our business it will also provide our holders with significant discounts on our products,a share of revenues and access to limited edition product auctions. This projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps.</p>
         </div>
         <div className="flex-col text-2xl px-4">
-          <h1 className="font-bold text-6xl text-transparent py-5 bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">Our Art</h1>
+          <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600 py-5 ">Our Art</h1>
           <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist El Davo is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
         </div>
 
         <div className="max-w-screen-xl mx-auto py-5 px-4">
           <div className="mx-auto">
-            <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-[#eacda3] to-[#d6ae7b]">Building...</h1>
+            <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-blue-600 to-purple-600 ">Building...</h1>
 
             <p className="mt-4 text-2xl pb-5 text-gray-300">
               We operate in the hardware space, building hardware products with integrated NFT and crypto support. We believe there is a gap between hardware products and NFTs that if filled will help increase crypto adoption and awareness of the market as a whole. Starting with Digital Photo Displays and NFT integrated furniture for personal use and expanding into more commercial use cases such as NFT Vending Machines.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 py-10">
             <a
-              className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+              className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-purple-600/10 hover:border-blue-600/10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ export const BasicsView: FC = ({ }) => {
             </a>
 
             <a
-              className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+              className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-purple-600/10 hover:border-blue-600/10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ export const BasicsView: FC = ({ }) => {
             </a>
 
             <a
-              className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+              className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-purple-600/10 hover:border-blue-600/10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -170,41 +170,31 @@ export const BasicsView: FC = ({ }) => {
               </p>
             </a>
           </div>
-
-          <div className="mt-12 text-center">
-            <a href="/team">
-            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#eacda3] to-[#d6ae7b] group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-black rounded-md group-hover:bg-opacity-0">
-                  Check roadmap
-              </span>
-            </button>
-            </ a>
-          </div>
         </div>
 
-        <div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-3">
+        <div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-3 py-8">
           <div className="flex flex-col px-8 py-4">
-            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">1.5 SOL</h2>
-            <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Mint Price</p>
+            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">1.5 SOL</h2>
+            <p className="flex-1 mb-4 text-base text-center leading-relaxed dark:text-coolGray-400">Mint Price</p>
           </div>
           <div className="flex flex-col px-8 py-4 lg:border-none xl:border-solid">
-            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">5000</h2>
-            <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Supply</p>
+            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">5000</h2>
+            <p className="flex-1 mb-4 text-base text-center leading-relaxed dark:text-coolGray-400">Supply</p>
              </div>
           <div className="flex flex-col px-8 py-4">
-            <h2 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">TBC</h2>
-            <p className="flex-1 mb-4 text-base leading-relaxed dark:text-coolGray-400">Date</p>
+            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">TBC</h2>
+            <p className="flex-1 mb-4 text-base text-center leading-relaxed dark:text-coolGray-400">Date</p>
           </div>
         </div>
 
-        <div className="bg-lightblue py-5 px-4">
+        <div className="bg-lightblue py-8 px-4">
             <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
                 <h2 className="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
                     Frequently-asked questions
                 </h2>
                 <dl className="w-full md:w-2/3">
                     <dt className="mb-4">
-                        <h3 className="text-2xl font-semibold">
+                        <h3 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600 ">
                             What is the mission?
                         </h3>
                     </dt>
@@ -214,7 +204,7 @@ export const BasicsView: FC = ({ }) => {
                         </p>
                     </dd>
                     <dt className="mb-4">
-                        <h3 className="text-2xl font-semibold">
+                        <h3 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">
                             When is the mint exactly?
                         </h3>
                     </dt>
@@ -224,7 +214,7 @@ export const BasicsView: FC = ({ }) => {
                         </p>
                     </dd>
                     <dt className="mb-4">
-                        <h3 className="text-2xl font-semibold">
+                        <h3 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">
                             How will we get there?
                         </h3>
                     </dt>

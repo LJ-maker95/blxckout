@@ -18,14 +18,14 @@ export const TechView: FC = ({ }) => {
                           </svg>
                       </span>
 
-                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">Solana Blockchain</h1>
+                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">Solana Blockchain</h1>
 
                       <p className="text-gray-500 dark:text-gray-300">
                           The underpinning blockchain infrastructure where we will build most of our components.
                       </p>
 
                       <a href="#" className="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-200 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">read more</span>
+                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">read more</span>
                           <svg className="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                       </a>
                   </div>
@@ -37,14 +37,14 @@ export const TechView: FC = ({ }) => {
                           </svg>
                       </span>
 
-                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">NFTs</h1>
+                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">NFTs</h1>
 
                       <p className="text-gray-500 dark:text-gray-300">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                       </p>
 
                       <a href="#" className="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-200 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">read more</span>
+                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">read more</span>
                           <svg className="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                       </a>
                   </div>
@@ -56,14 +56,14 @@ export const TechView: FC = ({ }) => {
                           </svg>
                       </span>
 
-                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">Chainlink</h1>
+                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">Chainlink</h1>
 
                       <p className="text-gray-500 dark:text-gray-300">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                       </p>
 
                       <a href="#" className="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-200 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">read more</span>
+                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">read more</span>
                           <svg className="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                       </a>
                   </div>
@@ -76,14 +76,14 @@ export const TechView: FC = ({ }) => {
                           </svg>
                       </span>
 
-                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">Decentralised Finance (Defi)</h1>
+                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">Decentralised Finance (Defi)</h1>
 
                       <p className="text-gray-500 dark:text-gray-300">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                       </p>
 
                       <a href="#" className="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-200 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">read more</span>
+                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">read more</span>
                           <svg className="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                       </a>
                   </div>
@@ -95,14 +95,14 @@ export const TechView: FC = ({ }) => {
                           </svg>
                       </span>
 
-                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">DAO</h1>
+                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">DAO</h1>
 
                       <p className="text-gray-500 dark:text-gray-300">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                       </p>
 
                       <a href="#" className="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-200 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">read more</span>
+                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">read more</span>
                           <svg className="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                       </a>
                   </div>
@@ -114,14 +114,14 @@ export const TechView: FC = ({ }) => {
                           </svg>
                       </span>
 
-                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">Simple & clean designs</h1>
+                      <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">Simple & clean designs</h1>
 
                       <p className="text-gray-500 dark:text-gray-300">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                       </p>
 
                       <a href="#" className="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-200 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-autos">read more</span>
+                          <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-autos">read more</span>
                           <svg className="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                       </a>
                   </div>
