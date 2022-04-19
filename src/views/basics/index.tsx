@@ -16,24 +16,49 @@ export const BasicsView: FC = ({ }) => {
           <div className="max-w-screen-xl text-center py-20">
             <p className="text-2xl pb-20" >Mint date: Late June - July 2022</p>
             <div />
-            <a href="/roadmap">
-            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#eacda3] to-[#d6ae7b] group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-black rounded-md group-hover:bg-opacity-0">
-                  Check the roadmap
-              </span>
-            </button>
-            </ a>
-            <a href="/team">
-            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#eacda3] to-[#d6ae7b] group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-black rounded-md group-hover:bg-opacity-0">
-                  Check out the team
-              </span>
-            </button>
-            </ a>
+
+            <div className="flex w-full">
+              <div className="grid h-20 flex-grow card rounded-box place-items-center">
+              <div className="px-3 pt-3">
+                <div className="grid gap-8 items-start justify-center">
+                  <div className="relative group">
+                    <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                    <button className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                      <span className="flex items-center space-x-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-600 -rotate-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                        </svg>
+                        <span className="pr-6 text-gray-100">BLXCKMAP</span>
+                      </span>
+                      <span className="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200">Check the roadmap</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div className="divider divider-horizontal"></div>
+              <div className="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center">
+              <div className="px-3 pt-3">
+              <div className="grid gap-8 items-start justify-center">
+                <div className="relative group">
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                  <button className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                    <span className="flex items-center space-x-5">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-600 -rotate-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                      </svg>
+                      <span className="pr-6 text-gray-100">TEXM</span>
+                    </span>
+                    <span className="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200">Check our credentials</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            </div>
           </div>
         </div>
-
-        <div className="bounce">
+        </div>
+        <div className="animate-bounce">
         <a id="arrow" href="#aboutus">
           <img src="/whitearrow.png" width="20" height="20">
           </img>
@@ -41,7 +66,7 @@ export const BasicsView: FC = ({ }) => {
         </div>
 
         <div id="aboutus" className="flex-co py-5 px-4">
-          <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">About Us</h1>
+          <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">About Us</h1>
           <p className="text-2xl py-5">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability initially, but as we build out our business it will also provide our holders with significant discounts on our products,a share of revenues and access to limited edition product auctions. This projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps.</p>
         </div>
         <div className="flex-col text-2xl px-4">

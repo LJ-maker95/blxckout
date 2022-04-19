@@ -4,7 +4,7 @@ export const TechView: FC = ({ }) => {
 
   return (
           <div className="container px-6 py-10 mx-auto">
-              <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-auto py-5">Blockchain Technology - Our Stack & 101 Guides</h1>
+              <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8312A5] to-[#0037A5] mx-auto py-5">Blockchain Technology - Our Stack & 101 Guides</h1>
 
               <p className="text-2xl mt-4 xl:mt-6">
                   We've chosen to build using trusted technologies and partnerships and are only using technologies what we believe are fit for purpose for the products we're building. We plan to onramp data to the blockchain rapidly using a cost effective model, we believe our technology partners make the most sense for the time being. In order for you to learn more we have compiled a basic introduction and links to further reading on our technologies and partners.
