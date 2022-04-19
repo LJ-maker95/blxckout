@@ -7,7 +7,7 @@ export const TeamView: FC = ({ }) => {
             <div className="w-full bg-black px-10 pt-10">
                 <div className="container mx-auto">
                     <div className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
-                    <div className="container flex justify-center bg-black mx-auto pt-10">
+                    <div className="container flex justify-center bg-black mx-auto pt-10 pb-10">
                         <div>
                             <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b] mx-auto py-5">CORE TEAM</h1>
                         </div>
@@ -16,7 +16,7 @@ export const TeamView: FC = ({ }) => {
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="blocksmith1.jpeg" className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="Valentine Panchin UA.png" className="rounded-full object-cover h-full w-full shadow-md" />
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
@@ -109,7 +109,7 @@ export const TeamView: FC = ({ }) => {
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center">Soldrizz</div>
                                     <p className="text-white text-2xl text-center">Community Manager</p>
-                                    <p className="text-center text-base pt-3 font-normal">Younger brother of Solbrood and recently graduated Biology student, trying his hand at crytpo community management - let's hope we earn him a bit of spare beer money.</p>
+                                    <p className="text-center text-base pt-3 font-normal">Brother of Solbrood and recently graduated Biology student, trying his hand at crypto community management.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="https://twitter.com/lukej_sol" className="mx-5">
                                             <div>
@@ -132,7 +132,7 @@ export const TeamView: FC = ({ }) => {
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-white text-center pb-1">Solshrimp</div>
                                     <p className="text-white text-2xl text-center">Moderator</p>
-                                    <p className="text-center text-base pt-3 font-normal">Managing the discord and supporting social media operations.</p>
+                                    <p className="text-center text-base pt-3 font-normal">Telecoms engineer by day, managing the discord and supporting social media operations by night.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="https://twitter.com/solbrood" className="mx-5">
                                             <div>

@@ -5,7 +5,7 @@ export const TerminalView: FC = ({ }) => {
   return (
       <div className="md:container md:mx-auto text-center px-4">
         <div className="typewriter py-20">
-          <h1 className="text-center text-5xl text-white">FIRST 100 TO CRXCK THE CODE GET BLXCKLISTED...</h1>
+          <h1 className="md:container md:mx-half text-center text-5xl text-white">FIRST 100 TO CRXCK THE CODE GET BLXCKLISTED...</h1>
         </div>
         <div className="mockup-code md:mx-half">
           <pre data-prefix="$"><code>npm i blxckout</code></pre>

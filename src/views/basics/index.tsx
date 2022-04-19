@@ -9,12 +9,12 @@ export const BasicsView: FC = ({ }) => {
         <div className="md:hero mx-auto py-50 p-4">
         <div className="md:hero-content flex flex-col">
 
-        <div className="max-w-screen-xl py-10 mx-auto lg:px-8">
+        <div className="max-w-screen-xl py-5 mx-auto lg:px-8">
           <div className="typewriter">
-            <h1 className="flex max-w-screen-xltext-center md:hero mx-auto text-9xl text-bold ">BLXCKOUT</h1>
+            <h1 className="flex max-w-screen-xltext-center md:hero mx-auto text-9xl text-bold ">BLXCKOUT NFT</h1>
           </div>
           <div className="max-w-screen-xl text-center py-20">
-            <p className="text-2xl pb-20" >Mint date: July 2022</p>
+            <p className="text-2xl pb-20" >Mint date: Late June - July 2022</p>
             <div />
             <a href="/roadmap">
             <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#eacda3] to-[#d6ae7b] group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
@@ -32,8 +32,15 @@ export const BasicsView: FC = ({ }) => {
             </ a>
           </div>
         </div>
-        
-        <div className="flex-co py-5 px-4">
+
+        <div className="bounce">
+        <a id="arrow" href="#aboutus">
+          <img src="/whitearrow.png" width="20" height="20">
+          </img>
+        </a>
+        </div>
+
+        <div id="aboutus" className="flex-co py-5 px-4">
           <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-tr from-[#eacda3] to-[#d6ae7b]">About Us</h1>
           <p className="text-2xl py-5">BLXCKOUT was formed by NFT fans working in corporate jobs for Big Tech and Fortune 500 companies. We saw the power of community building online and the ability that NFTs have to rapidly acquire new user bases. We're super excited to bring operational integrity from the best talent in Web2 over to Web3 and we're passionate about linking physical products with the crypto space. Our initial drop in May is the genesis project and will act solely as a Pfp with staking capability initially, but as we build out our business it will also provide our holders with significant discounts on our products,a share of revenues and access to limited edition product auctions. This projects time on the planet will be dedicated to working only on functionality that we believe will help to onboard the next billion people to crypto. Our roadmap details what our plans are for the short and long term future, this includes developing various products and apps.</p>
         </div>
@@ -140,27 +147,13 @@ export const BasicsView: FC = ({ }) => {
           </div>
 
           <div className="mt-12 text-center">
-            <a
-              className="inline-flex items-center px-8 py-3 mt-8 text-black bg-white border border-blue-600 rounded active:text-blue-500 focus:outline-none focus:ring"
-              href="/roadmap"
-            >
-              <span className="text-sm font-medium"> CHECK ROADMAP </span>
-
-              <svg
-                className="w-5 h-5 ml-3"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="blue"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
-            </a>
+            <a href="/team">
+            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#eacda3] to-[#d6ae7b] group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-black rounded-md group-hover:bg-opacity-0">
+                  Check roadmap
+              </span>
+            </button>
+            </ a>
           </div>
         </div>
 
