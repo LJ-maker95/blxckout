@@ -33,20 +33,14 @@ export const BasicsView: FC = ({ }) => {
                       </span>
                       <span className="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200">Check the roadmap</span>
                     </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
-        </div>
-        <div className="animate-bounce">
-        <a id="arrow" href="#aboutus">
-          <img src="/whitearrow.png" width="20" height="20">
-          </img>
-        </a>
-        </div>
+      </div>
 
         <div id="aboutus" className="flex-co py-5 px-4">
           <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 ">About Us</h1>
@@ -91,7 +85,7 @@ export const BasicsView: FC = ({ }) => {
 
               <h3 className="mt-4 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Public Services On-Chain</h3>
 
-              <p className="mt-1 text-sm text-white">
+              <p className="mt-1 text-sm">
                 We're bringing publicly available government datasets online, starting with the companies house open dataset in the UK. This will allow DeFi instituions to loan crypto to small to medium enterprises on chain, providing liquidity and a bridge.
               </p>
             </a>
@@ -118,10 +112,10 @@ export const BasicsView: FC = ({ }) => {
                 />
               </svg>
 
-              <h3 className="mt-4 text-xl font-bold font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">NFT Digital Photo Frame</h3>
+              <h3 className="mt-4 text-xl font-bold font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Decentralised Applications (dApps)</h3>
 
-              <p className="mt-1 text-sm text-gray-300">
-                  Link major Solana wallets with our digital photo display using our existing iOS application.
+              <p className="mt-1 text-sm">
+                  If we identify a large Total Addressable Market (TAM) for Solana that has not been addressed, we will build PoC dApps to test product market fit.
               </p>
             </a>
 
