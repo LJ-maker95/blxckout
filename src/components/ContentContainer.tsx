@@ -16,7 +16,7 @@ export const ContentContainer: FC = props => {
         <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
           <li>
             <Link href="/basics">
-              <a>PROJECT</a>
+              <a>ABOUT</a>
             </Link>
           </li>
           <li>
@@ -27,21 +27,6 @@ export const ContentContainer: FC = props => {
           <li>
             <Link href="/team">
               <a>TEAM</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/tech">
-              <a>TECH</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/art">
-              <a>ART SHOP</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/terminal">
-              <a> GET BLXCKLISTED</a>
             </Link>
           </li>
         </ul>
