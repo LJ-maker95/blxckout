@@ -11,7 +11,7 @@ export const BasicsView: FC = ({ }) => {
 
         <div className="max-w-screen-xl py-5 mx-auto lg:px-8">
           <div className="typewriter">
-            <h1 className="flex max-w-screen-xltext-center md:hero mx-auto text-9xl text-bold  text-transparent bg-clip-text bg-gradient-to-tr py-5 from-blue-600 to-purple-600 ">BLXCKOUT NFT</h1>
+            <h1 className="flex max-w-screen-xltext-center md:hero mx-auto text-9xl ">BLXCKOUT NFT</h1>
           </div>
           <div className="max-w-screen-xl text-center py-20">
             <p className="text-2xl pb-20" >Mint date: Late June - July 2022</p>
