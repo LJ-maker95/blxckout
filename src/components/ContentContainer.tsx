@@ -20,7 +20,7 @@ export const ContentContainer: FC = props => {
             </Link>
           </li>
           <li>
-            <Link href="/roadmap">
+            <Link href="https://necessary-waltz-35b.notion.site/ff0bb4b73ae44092ba7a0b3ea02f6582?v=4f00d8d38c164ec3aa7d9338175691b3">
               <a>BLXCKMAP</a>
             </Link>
           </li>

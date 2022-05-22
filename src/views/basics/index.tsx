@@ -18,21 +18,22 @@ export const BasicsView: FC = ({ }) => {
               <p className="text-2xl pb-20" >July 2022</p>
             <div />
 
-            <div className="flex w-full">
-              <div className="grid h-20 flex-grow card rounded-box place-items-center">
-              <div className="px-3 pt-3">
-                <div className="grid gap-8 items-start justify-center">
-                  <div className="relative group">
-                    <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                    <button className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
-                      <span className="flex items-center space-x-5">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-600 -rotate-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                        </svg>
-                        <span className="pr-6 text-gray-100">BLXCKMAP</span>
-                      </span>
-                      <span className="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200">Check the roadmap</span>
-                    </button>
+              <div className="flex w-full">
+                <div className="grid h-20 flex-grow card rounded-box place-items-center">
+                <div className="px-3 pt-3">
+                  <div className="grid gap-8 items-start justify-center">
+                    <div className="relative group">
+                      <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                      <button className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                        <span className="flex items-center space-x-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-600 -rotate-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                          </svg>
+                          <span className="pr-6 text-gray-100">BLXCKMAP</span>
+                        </span>
+                        <span className="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200">EXPERIMENTING...</span>
+                      </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -40,8 +41,6 @@ export const BasicsView: FC = ({ }) => {
             </div>
           </div>
         </div>
-      </div>
-
         <div id="aboutus" className="flex-co py-5 px-4">
           <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 ">About Us</h1>
           <p className="text-2xl py-5">Blxckout is building an oracle service to help bring Public Sector datasets on-chain, enabling Decentralised Applications (dApps) to perform new functions and set on identifying new use cases in the Solana ecosystem. NFT holders will be rewarded with 50% revenue share, governance rights and lifetime product access. The Blxckout or ‘Blockout’ approach to building is laser focused on the long term goal of moving traditional, inefficient and process heavy government operations onto web3.</p>
@@ -83,7 +82,7 @@ export const BasicsView: FC = ({ }) => {
                 />
               </svg>
 
-              <h3 className="mt-4 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Public Services On-Chain</h3>
+              <h3 className="mt-4 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Data Feeds</h3>
 
               <p className="mt-1 text-sm">
                 We're bringing publicly available government datasets online, starting with the companies house open dataset in the UK. This will allow DeFi instituions to loan crypto to small to medium enterprises on chain, providing liquidity and a bridge.
@@ -115,7 +114,7 @@ export const BasicsView: FC = ({ }) => {
               <h3 className="mt-4 text-xl font-bold font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Decentralised Applications (dApps)</h3>
 
               <p className="mt-1 text-sm">
-                  If we identify a large Total Addressable Market (TAM) for Solana that has not been addressed, we will build PoC dApps to test product market fit.
+                  If we identify a large Total Addressable Market (TAM) for Solana that has not been addressed, we will build Proof of Concept (PoC) dApps to test product market fit. If successful, they will be spun out under the Blxckout brand and revenue share will be provided to our Genesis mint holders.
               </p>
             </a>
 
@@ -140,10 +139,10 @@ export const BasicsView: FC = ({ }) => {
                   d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
                 />
               </svg>
-              <h3 className="mt-4 text-xl font-bold font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 ">NFT Furniture</h3>
+              <h3 className="mt-4 text-xl font-bold font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 ">Fine Art</h3>
 
               <p className="mt-1 text-sm text-gray-300">
-                Limited edition, custom hand made British furniture with integrated NFT display support available for purchase with our token.
+                Limited edition pieces that make you truly think about what is happening in the 21st Century.
               </p>
             </a>
           </div>
@@ -151,15 +150,15 @@ export const BasicsView: FC = ({ }) => {
 
         <div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-3 py-8">
           <div className="flex flex-col px-8 py-4">
-            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">1.5 SOL</h2>
+            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">3 SOL</h2>
             <p className="flex-1 mb-4 text-base text-center leading-relaxed dark:text-coolGray-400">Mint Price</p>
           </div>
           <div className="flex flex-col px-8 py-4 lg:border-none xl:border-solid">
-            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">5000</h2>
+            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">6969</h2>
             <p className="flex-1 mb-4 text-base text-center leading-relaxed dark:text-coolGray-400">Supply</p>
              </div>
           <div className="flex flex-col px-8 py-4">
-            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">TBC</h2>
+            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">JULY</h2>
             <p className="flex-1 mb-4 text-base text-center leading-relaxed dark:text-coolGray-400">Date</p>
           </div>
         </div>
