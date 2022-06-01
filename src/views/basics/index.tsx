@@ -150,11 +150,11 @@ export const BasicsView: FC = ({ }) => {
 
         <div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-3 py-8">
           <div className="flex flex-col px-8 py-4">
-            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">3 SOL</h2>
+            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">TBC</h2>
             <p className="flex-1 mb-4 text-base text-center leading-relaxed dark:text-coolGray-400">Mint Price</p>
           </div>
           <div className="flex flex-col px-8 py-4 lg:border-none xl:border-solid">
-            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">6969</h2>
+            <h2 className="text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600">TBC</h2>
             <p className="flex-1 mb-4 text-base text-center leading-relaxed dark:text-coolGray-400">Supply</p>
              </div>
           <div className="flex flex-col px-8 py-4">
