@@ -176,7 +176,7 @@ export const BasicsView: FC = ({ }) => {
                     </dt>
                     <dd className="mb-16">
                         <p>
-                           To bring high quality art to the Solana NFT scene coupled with unmatched utility in real life. We have one physical product under development that we'd like to keep under wraps for the moment, as well as a pipeline and vision for building a product brand.
+                           To bring high quality art to the Solana NFT scene coupled with unmatched utility in real life. Bridging the gap between the crypto/NFT space and real life is the biggest challenge that any project faces in the present day. Our aims and aspirations are exactly that - putting public sector data on the blockchain - ready to be used by the masses.
                         </p>
                     </dd>
                     <dt className="mb-4">
@@ -186,7 +186,8 @@ export const BasicsView: FC = ({ }) => {
                     </dt>
                     <dd className="mb-16">
                         <p>
-                          As it stands, we will be minting on the 2nd May 2022 at 8pm UTC. This may be impacted by a variety of factors including state and availability of the Solana blockchain, ME launchpad availability and any art delays.
+                        As it stands, we aim to mint in July. This may be impacted by a variety of factors including state and availability of the Solana blockchain, launchpad availability and art completion.
+
                         </p>
                     </dd>
                     <dt className="mb-4">
@@ -196,7 +197,7 @@ export const BasicsView: FC = ({ }) => {
                     </dt>
                     <dd className="mb-16">
                         <p>
-                          We believe we have the expertise within our team and their connections to build against our vision. We have in-house development capability, marketing expertise and the best artist of all time (in our opinion) on the internal team.
+                        We believe we have the expertise within our team and their connections to build against our vision. We have in-house development capability, marketing expertise and the best artist of all time (in our opinion) on the internal team.
                         </p>
                     </dd>
                 </dl>

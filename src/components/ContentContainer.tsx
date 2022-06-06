@@ -20,13 +20,13 @@ export const ContentContainer: FC = props => {
             </Link>
           </li>
           <li>
-            <Link href="https://necessary-waltz-35b.notion.site/ff0bb4b73ae44092ba7a0b3ea02f6582?v=4f00d8d38c164ec3aa7d9338175691b3">
-              <a>BLXCKMAP</a>
+            <Link href="/team">
+              <a>TEAM</a>
             </Link>
           </li>
           <li>
-            <Link href="/team">
-              <a>TEAM</a>
+            <Link href="https://www.notion.so/blxckmap/8e8c607e19724109b0afdaaba19bdd4e?v=8b96e16423b1427a82fdee401786985f">
+              <a>BLXCKMAP</a>
             </Link>
           </li>
         </ul>
