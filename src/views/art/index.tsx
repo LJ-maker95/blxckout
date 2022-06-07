@@ -9,6 +9,6 @@ export const ArtView: FC = ({ }) => {
         return (
           <div>
         
-        </div>
+    </div>
   );
 };

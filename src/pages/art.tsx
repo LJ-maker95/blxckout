@@ -15,7 +15,7 @@ const Art: NextPage = (props) => {
       </Head>
       <ArtView />
       <div className="flex flex-col gap-8 max-w-4xl items-stretch m-auto pt-24">
-      {/* We disable checking out without a connected wallet */}
+      {/* disable checking out without a connected wallet */}
       </div>
     </div>
   );

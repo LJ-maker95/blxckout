@@ -1,6 +1,6 @@
 // Next, React
 import { FC, useEffect, useState } from 'react';
-import Link from 'next/link';
+import Link from 'next/link';import { useRouter } from 'next/router';
 
 // Wallet
 import { useWallet, useConnection } from '@solana/wallet-adapter-react';
@@ -26,28 +26,17 @@ export const HomeView: FC = ({ }) => {
     }
   }, [wallet.publicKey, connection, getUserSOLBalance])
 
-  return (
+//redirect page
+ function RedirectPage() {
+    const router = useRouter()
+    // Make sure we're in the browser
+    if (typeof window !== 'undefined') {
+      router.push('/home')
+    }
+  }
 
-    <div className="md:hero mx-auto p-4">
-      <div className="md:hero-content flex flex-col">
-        <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-          BLXCKOUT <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
-        </h1>
-        <h4 className="md:w-full text-center text-slate-300 my-2">
-          <p>Simply the fastest way to get started.</p>
-          Next.js, tailwind, wallet, web3.js, and more.
-        </h4>
-        <div className="max-w-md mx-auto mockup-code bg-primary p-6 my-2">
-          <pre data-prefix=">">
-            <code className="truncate">Start building on Solana  </code>
-          </pre>
-        </div>
-          <div className="text-center">
-          <RequestAirdrop />
-          {/* {wallet.publicKey && <p>Public Key: {wallet.publicKey.toBase58()}</p>} */}
-          {wallet && <p>SOL Balance: {(balance || 0).toLocaleString()}</p>}
-        </div>
-      </div>
-    </div>
+
+  return (
+    RedirectPage()
   );
 };

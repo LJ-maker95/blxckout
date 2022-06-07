@@ -5,19 +5,17 @@ import { ContextProvider } from '../contexts/ContextProvider';
 import { AppBar } from '../components/AppBar';
 import { ContentContainer } from '../components/ContentContainer';
 import { Footer } from '../components/Footer';
-import { BasicsView } from "../views";
+import { AboutView } from "../views";
 import Notifications from '../components/Notification'
 
 require('@solana/wallet-adapter-react-ui/styles.css');
 require('../styles/globals.css');
-require('../styles/typewriter.css');
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
           <Head>
             <title>BLXCKOUT NFT</title>
-            <script type="text/javascript" src="/static/roadmap.js"></script>
           </Head>
           <ContextProvider>
             <div className="flex flex-col h-screen">

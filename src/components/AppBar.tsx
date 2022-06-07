@@ -24,14 +24,14 @@ export const AppBar: FC = props => {
         {/* Nav Links */}
         <div className="hidden md:inline md:navbar-right">
           <div className="flex items-stretch">
-            <Link href="/basics">
-              <a className="btn btn-ghost btn-sm rounded-btn">About</a>
+            <Link href="/about">
+              <a className="btn btn-ghost btn-sm rounded-btn">ABOUT</a>
               </Link>
-            <Link href="https://necessary-waltz-35b.notion.site/ff0bb4b73ae44092ba7a0b3ea02f6582?v=4f00d8d38c164ec3aa7d9338175691b3">
-              <a className="btn btn-ghost btn-sm rounded-btn">BLXCKMAP</a>
-            </Link>
             <Link href="/team">
               <a className="btn btn-ghost btn-sm rounded-btn">TEAM</a>
+            </Link>
+            <Link href="https://blxckmap.notion.site/">
+              <a className="btn btn-ghost btn-sm rounded-btn">BLXCKMAP</a>
             </Link>
           </div>
         </div>

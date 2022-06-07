@@ -15,7 +15,7 @@ export const ContentContainer: FC = props => {
         <label htmlFor="my-drawer" className="drawer-overlay"></label>
         <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
           <li>
-            <Link href="/basics">
+            <Link href="/about">
               <a>ABOUT</a>
             </Link>
           </li>
@@ -25,7 +25,7 @@ export const ContentContainer: FC = props => {
             </Link>
           </li>
           <li>
-            <Link href="https://www.notion.so/blxckmap/8e8c607e19724109b0afdaaba19bdd4e?v=8b96e16423b1427a82fdee401786985f">
+            <Link href="https://blxckmap.notion.site/">
               <a>BLXCKMAP</a>
             </Link>
           </li>
