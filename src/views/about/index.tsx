@@ -182,7 +182,7 @@ export const AboutView: FC = ({ }) => {
                     </dt>
                     <dd className="mb-16">
                         <p>
-                           Bridging the gap between the crypto/NFT space and real life is the biggest challenge that any project faces in the present day, our objectives is to help solve that. Putting public sector data on the blockchain - ready to be used by the masses.
+                           Putting public sector data on the blockchain - ready to be used by the masses.
                         </p>
                     </dd>
                     <dt className="mb-4">
