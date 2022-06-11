@@ -8,7 +8,6 @@ const Home: NextPage = (props) => {
         <title>BLXCKOUT NFT</title>
         <meta/>
       </Head>
-
     </div>
   );
 };
