@@ -1,4 +1,3 @@
-export { HomeView } from "./home";
 export { AboutView } from "./about";
 export { TeamView } from "./team";
 export { TechView } from "./tech";
