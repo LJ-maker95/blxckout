@@ -9,7 +9,7 @@ export const ArtView: FC = ({ }) => {
         return (
           <div>
           <section>
-          <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24">
+          <div className="max-w-screen-xl px-4 py-5 mx-auto sm:px-6 lg:px-8">
             <div className="max-w-3xl">
             </div>
 
@@ -34,15 +34,13 @@ export const ArtView: FC = ({ }) => {
                   <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600 mx-auto py-4">
                   NFT Features
                   </h2>
-                  <p className="text-2xl">
-                    1. Stake your pfp and earn our SPL token to purchase from a dynamic and constantly evolving catalogue of attributes related to the most popular news story of the time.
-                  </p>
-                  <p className="text-2xl">
-                    2. Revenue share from Oracle services built out from the UK registered company Blockout that will interface with web2 companies, central and local government entities.
-                  </p>
-                  <p className="text-2xl">
-                    3. Governance rights and input into the direction of the formal company's revenues.
-                  </p>
+                  <ul>
+                    <li className="text-2xl py-5"> Stake your pfp and earn our SPL token to purchase from a dynamic and constantly evolving catalogue of attributes related to the most popular news story of the time.</li>
+                    <div>  </div>
+                    <li className="text-2xl py-5"> Revenue share from Oracle services built out from the UK registered company Blockout that will interface with web2 companies, central and local government entities.</li>
+                    <div>  </div>
+                    <li className="text-2xl py-5"> Governance rights and input into the direction of the formal company's revenues.</li>
+                  </ul>
                 </article>
               </div>
             </div>
