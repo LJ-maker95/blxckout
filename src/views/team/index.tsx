@@ -162,7 +162,7 @@ export const TeamView: FC = ({ }) => {
                                 <p className="text-white text-2xl text-center">Alpha Hunter</p>
                                 <p className="text-center text-base pt-3 font-normal">Another veteran in the space, Vittodale has been an alpha hunter for Smart Sea Society, Miners of Mars and many other great solana projects.</p>
                                 <div className="w-full flex justify-center pt-5 pb-5">
-                                    <a href="https://twitter.com/Rolyt19" className="mx-5">
+                                    <a href="https://twitter.com/vittorio9397" className="mx-5">
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="feather feather-twitter">
                                                 <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
