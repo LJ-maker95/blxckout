@@ -169,6 +169,7 @@ export const AboutView: FC = ({ }) => {
           </div>
         </div>
 
+
         <div className="bg-lightblue py-8 px-4">
             <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
                 <h2 className="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
