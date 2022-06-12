@@ -21,7 +21,7 @@ export const ContentContainer: FC = props => {
           </li>
           <li>
             <Link href="/art">
-              <a>ART</a>
+              <a>NFT</a>
             </Link>
           </li>
           <li>
