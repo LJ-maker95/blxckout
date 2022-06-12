@@ -185,7 +185,7 @@ export const AboutView: FC = ({ }) => {
                     </dt>
                     <dd className="mb-16">
                         <p>
-                           Putting public sector data on the blockchain - ready to be used by web2 companies, central and local government bodies to unlock the advantage of distributed ownership, global contract execution and interoperable identity.
+                           Putting public sector data on the blockchain - ready to be used by web2 companies, central and local government bodies to unlock the advantages of distributed ownership, global contract execution and interoperable identity.
                         </p>
                     </dd>
                     <dt className="mb-4">
