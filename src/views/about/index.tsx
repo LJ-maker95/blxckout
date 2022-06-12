@@ -47,23 +47,25 @@ export const AboutView: FC = ({ }) => {
             </div>
           </div>
         </div>
+
         <div id="aboutus" className="flex-co py-5 px-4">
           <h1 className="font-bold text-leading text-6xl pt-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 ">About Us</h1>
           <p className="text-2xl py-5">Blxckout is building an oracle service to help bring Public Sector datasets on-chain, enabling Decentralised Applications (dApps) to perform new functions and set on identifying new use cases in the Solana ecosystem. NFT holders will be rewarded with revenue share, governance rights and lifetime product access. The Blxckout or ‘Blockout’ approach to building is laser focused on the long term goal of moving traditional, inefficient and process heavy government operations onto web3.</p>
         </div>
-        <div className="flex-col text-2xl px-4">
-          <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600 py-5 ">Our Art</h1>
-          <p>Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
-        </div>
 
-        <div className="max-w-screen-xl mx-auto py-5 px-4">
+        <div className="flex-co py-5 px-4">
           <div className="mx-auto">
             <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr py-5 from-blue-600 to-purple-600 ">Building...</h1>
-
-            <p className="mt-4 text-2xl pb-5 text-gray-300">
+            <p className="mt-4 text-2xl pb-5">
             At Blxckout we genuinely believe that most of the true use cases for public blockchains aren’t here yet. If you take the example of geolocation technology in mobile, about 5–6 years ago everyone was talking about how you’d have geolocation based advertising e.g you’d walk past McDonald’s they’d send you an advert for a 99p cheeseburger. In actual fact still there’s barely any companies using geolocation for advertising, instead it is used for mobility companies (more obvious in hindsight) by companies like Uber & Lyft.
             </p>
           </div>
+
+          <div className="flex-col py-5">
+            <h1 className="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600 py-5 ">Our Art</h1>
+            <p className="mt-4 text-2xl pb-5">Our genesis project looks to make light of the challenges that we face in the 21st Century. We hope that the art completed by our local artist is thought provoking - as we actively put a focus on topics such as global warming, populism, pandemics and anything inbetween. Pay close attention to our attributes, you'll recognise them from many events seen in the media. Our art puts the spotlight on a variety of things, from scandalous behaviour from the elite social classes to pure tragedies.</p>
+          </div>
+
 
           <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 py-10">
             <a
@@ -172,7 +174,7 @@ export const AboutView: FC = ({ }) => {
 
         <div className="bg-lightblue py-8 px-4">
             <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
-                <h2 className="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
+                <h2 className="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9 py-5">
                     Frequently-asked questions
                 </h2>
                 <dl className="w-full md:w-2/3">
@@ -183,7 +185,7 @@ export const AboutView: FC = ({ }) => {
                     </dt>
                     <dd className="mb-16">
                         <p>
-                           Putting public sector data on the blockchain - ready to be used by the masses.
+                           Putting public sector data on the blockchain - ready to be used by web2 companies, central and local government bodies to unlock the advantage of distributed ownership, global contract execution and interoperable identity.
                         </p>
                     </dd>
                     <dt className="mb-4">
