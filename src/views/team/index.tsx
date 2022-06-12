@@ -13,7 +13,7 @@ export const TeamView: FC = ({ }) => {
                         </div>
                     </div>
 
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-1/4">
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
@@ -37,7 +37,7 @@ export const TeamView: FC = ({ }) => {
                             </div>
                         </div>
 
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-1/4">
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
@@ -61,7 +61,7 @@ export const TeamView: FC = ({ }) => {
                             </div>
                         </div>
 
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                        <div className="xl:w-1/4 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-1/4">
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
@@ -78,7 +78,7 @@ export const TeamView: FC = ({ }) => {
                             </div>
                         </div>
 
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                        <div className="xl:w-1/4 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-1/4">
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
@@ -86,7 +86,7 @@ export const TeamView: FC = ({ }) => {
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
-                                    <div className="text-4xl font-bold text-transparent bg-clip-text text-center bg-gradient-to-tr from-blue-600 to-purple-600 mx-auto pb-1">El Davo</div>
+                                    <div className="text-4xl font-bold text-transparent bg-clip-text text-center bg-gradient-to-tr from-blue-600 to-purple-600 mx-auto pb-1">Duke Mutinous</div>
                                     <p className="text-white text-2xl text-center">Artist</p>
                                     <p className="text-center text-base pt-5 font-normal">UK based Artist, freelance illustrator, painter and mural artist who doesn’t want to be solely defined by these labels as he believes he is capable of doing anything. His pumpkin carving skills are pretty sharp and he built an impressive sand castle once. </p>
                                 </div>
@@ -104,7 +104,7 @@ export const TeamView: FC = ({ }) => {
                             <h1 className="text-4xl font-bold text-transparent bg-clip-text text-center bg-gradient-to-tr from-blue-600 to-purple-600 mx-auto  pt-10 pb-10 py-5">SUPPORT TEAM</h1>
                         </div>
                     </div>
-                    <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                    <div className="xl:w-1/4 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-1/4">
                         <div className="rounded overflow-hidden shadow-md bg-black">
                             <div className="absolute -mt-20 w-full flex justify-center">
                                 <div className="h-32 w-32">
@@ -127,7 +127,7 @@ export const TeamView: FC = ({ }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                    <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-1/4">
                         <div className="rounded overflow-hidden shadow-md bg-black">
                             <div className="absolute -mt-20 w-full flex justify-center">
                                 <div className="h-32 w-32">
@@ -150,7 +150,7 @@ export const TeamView: FC = ({ }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                    <div className="xl:w-1/4 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-1/4">
                         <div className="rounded overflow-hidden shadow-md bg-black">
                             <div className="absolute -mt-20 w-full flex justify-center">
                                 <div className="h-32 w-32">
@@ -160,7 +160,7 @@ export const TeamView: FC = ({ }) => {
                             <div className="px-6 mt-16">
                                 <div className="text-4xl font-bold text-transparent bg-clip-text text-center bg-gradient-to-tr from-blue-600 to-purple-600 mx-auto">Vittodale</div>
                                 <p className="text-white text-2xl text-center">Alpha Hunter</p>
-                                <p className="text-center text-base pt-3 font-normal">Another veteran in the space, Vittodale has been an alpha hunter for Smart Sea Society, Miners of Mars and many other great solana projects.</p>
+                                <p className="text-center text-base pt-3 font-normal">Another veteran in the space, Vittodale has been an alpha hunter for Smart Sea Society and many other great solana projects.</p>
                                 <div className="w-full flex justify-center pt-5 pb-5">
                                     <a href="https://twitter.com/vittorio9397" className="mx-5">
                                         <div>
@@ -173,7 +173,7 @@ export const TeamView: FC = ({ }) => {
                             </div>
                         </div>
                     </div>
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                        <div className="xl:w-1/4 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
@@ -196,7 +196,7 @@ export const TeamView: FC = ({ }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                        <div className="xl:w-1/4 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
@@ -219,7 +219,7 @@ export const TeamView: FC = ({ }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                        <div className="xl:w-1/4 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
@@ -242,7 +242,7 @@ export const TeamView: FC = ({ }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                        <div className="xl:w-1/4 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
                             <div className="rounded overflow-hidden shadow-md bg-black">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
