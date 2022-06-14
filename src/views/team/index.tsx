@@ -127,29 +127,6 @@ export const TeamView: FC = ({ }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-1/4">
-                        <div className="rounded overflow-hidden shadow-md bg-black">
-                            <div className="absolute -mt-20 w-full flex justify-center">
-                                <div className="h-32 w-32">
-                                    <img src="165.png" className="rounded-full object-cover h-full w-full shadow-md" />
-                                </div>
-                            </div>
-                            <div className="px-6 mt-16">
-                                <div className="text-4xl font-bold text-transparent bg-clip-text text-center bg-gradient-to-tr from-blue-600 to-purple-600 mx-auto">Rolyt.eth</div>
-                                <p className="text-white text-2xl text-center">Alpha Hunter</p>
-                                <p className="text-center text-base pt-3 font-normal">Full beast mode, Roly T is a gold tier/mod for Solhub Alpha and our collab manager.</p>
-                                <div className="w-full flex justify-center pt-5 pb-5">
-                                    <a href="https://twitter.com/Rolyt19" className="mx-5">
-                                        <div>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="feather feather-twitter">
-                                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
-                                            </svg>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div className="xl:w-1/4 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-1/4">
                         <div className="rounded overflow-hidden shadow-md bg-black">
                             <div className="absolute -mt-20 w-full flex justify-center">

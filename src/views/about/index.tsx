@@ -15,7 +15,7 @@ export const AboutView: FC = ({ }) => {
             <div />
 
             <div className="max-w-screen-xl text-center py-20">
-              <p className="text-2xl pb-20" >July 2022</p>
+              <p className="text-2xl pb-20">July 2022</p>
             <div />
 
               <div className="flex w-full">
